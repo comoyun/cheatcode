@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "tags": [
+        "hash-table",
+        "array"
+    ],
+    "link": "https://leetcode.com/problems/two-sum/description/"
+}
