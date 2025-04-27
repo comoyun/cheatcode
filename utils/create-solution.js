@@ -15,7 +15,7 @@ const zeroPad = num => String(num).padStart(4, '0');
 const capitalize = str =>
     str ? str[0].toUpperCase() + str.slice(1).toLowerCase() : '';
 
-const solutionsPath = '../solutions';
+const solutionsPath = './solutions';
 
 const main = async () => {
     let id = await ask('Problem id:');
