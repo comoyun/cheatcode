@@ -5,7 +5,8 @@
     "tags": [
         "hash-table",
         "array",
-        "brute-force"
+        "brute-force",
+        "two-pointers"
     ],
     "link": "https://leetcode.com/problems/two-sum/description/"
 }
