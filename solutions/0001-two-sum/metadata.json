@@ -4,7 +4,8 @@
     "difficulty": "Easy",
     "tags": [
         "hash-table",
-        "array"
+        "array",
+        "brute-force"
     ],
     "link": "https://leetcode.com/problems/two-sum/description/"
 }
