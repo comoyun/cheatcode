@@ -53,7 +53,16 @@ const main = async () => {
         'utf8'
     );
 
-    console.log(`Created ${folderPath}/metadata.json`);
+    // Create index.js file
+    const indexContent = `/*
+ * @title ${title}
+ * @time: 
+ * @space: 
+ */
+`;
+    fs.writeFileSync(path.join(folderPath, 'index.js'), indexContent, 'utf8');
+
+    console.log(`Created ${folderPath}/metadata.json and index.js`);
     console.log('Path copied to clipboard!');
     clipboardy.writeSync(folderPath);
 };
