@@ -1,5 +1,5 @@
 /*
- * @title Two Pointers
+ * @title: Two Pointers
  * @time: O(n log n)
  * @space: O(n)
  */

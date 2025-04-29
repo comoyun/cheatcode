@@ -1,5 +1,5 @@
 /*
- * @title Brute Force
+ * @title: Brute Force
  * @time: O(n^2)
  * @space: O(1)
  */

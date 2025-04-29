@@ -1,5 +1,5 @@
 /*
- * @title Hashmap
+ * @title: Hashmap
  * @time: O(n)
  * @space: O(n)
  */
