@@ -5,6 +5,10 @@
             "name": "solve:  solution (lang)"
         },
         {
+            "value": "feat",
+            "name": "feat:  add new feature"
+        },
+        {
             "value": "fix",
             "name": "fix:  edge cases, typo, bug"
         },
