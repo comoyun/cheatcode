@@ -55,7 +55,7 @@ const main = async () => {
 
     // Create index.js file
     const indexContent = `/*
- * @title ${title}
+ * @title: ${title}
  * @time: 
  * @space: 
  */
