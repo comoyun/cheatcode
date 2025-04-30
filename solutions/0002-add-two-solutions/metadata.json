@@ -4,7 +4,8 @@
     "difficulty": "Medium",
     "tags": [
         "linked-list",
-        "math"
+        "math",
+        "cheat"
     ],
     "link": "https://leetcode.com/problems/add-two-numbers/"
 }
