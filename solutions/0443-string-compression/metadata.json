@@ -1,0 +1,10 @@
+{
+    "id": 443,
+    "title": "String Compression",
+    "difficulty": "Medium",
+    "tags": [
+        "string",
+        "two-pointers"
+    ],
+    "link": "https://leetcode.com/problems/string-compression/"
+}
