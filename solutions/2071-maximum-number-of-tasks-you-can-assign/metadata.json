@@ -1,0 +1,10 @@
+{
+    "id": 2071,
+    "title": "Maximum Number of Tasks You Can Assign",
+    "difficulty": "Hard",
+    "tags": [
+        "binary-search",
+        "greedy"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/"
+}
