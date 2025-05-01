@@ -62,4 +62,3 @@ const maxTaskAssign = (tasks, workers, pills, strength) => {
     }
     return res;
 };
-
