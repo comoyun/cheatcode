@@ -2,6 +2,6 @@
     "id": 283,
     "title": "Move Zeroes",
     "difficulty": "Easy",
-    "tags": ["two-pointers"],
+    "tags": ["two-pointers", "array"],
     "link": "https://leetcode.com/problems/move-zeroes/"
 }
