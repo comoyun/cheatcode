@@ -3,7 +3,8 @@
     "title": "Push Dominoes",
     "difficulty": "Medium",
     "tags": [
-        "bfs"
+        "bfs",
+        "two-pointers"
     ],
     "link": "https://leetcode.com/problems/push-dominoes/"
 }
