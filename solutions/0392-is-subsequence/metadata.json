@@ -1,0 +1,9 @@
+{
+    "id": 392,
+    "title": "Is Subsequence",
+    "difficulty": "Easy",
+    "tags": [
+        "two-pointers"
+    ],
+    "link": "https://leetcode.com/problems/is-subsequence/"
+}
