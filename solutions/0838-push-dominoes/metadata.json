@@ -1,0 +1,9 @@
+{
+    "id": 838,
+    "title": "Push Dominoes",
+    "difficulty": "Medium",
+    "tags": [
+        "bfs"
+    ],
+    "link": "https://leetcode.com/problems/push-dominoes/"
+}
