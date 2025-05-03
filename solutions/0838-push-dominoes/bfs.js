@@ -41,5 +41,13 @@ const pushDominoes = dominoes => {
         }
     }
 
-    return dominoes.map(x => (x === 1 ? 'R' : x === -1 ? 'L' : '.')).join('');
+    dominoes = dominoes.map(x => {
+        switch (x) {
+            case 1: return 'R';
+            case -1: return 'L';
+            default: return '.';
+        }
+    });
+
+    return dominoes.join('');
 };
