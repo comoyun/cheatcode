@@ -6,7 +6,8 @@
         "sliding-window",
         "prefix",
         "suffix",
-        "array"
+        "array",
+        "kadanes-algorithm"
     ],
     "link": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
 }
