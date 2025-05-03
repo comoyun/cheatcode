@@ -1,0 +1,9 @@
+{
+    "id": 643,
+    "title": "Maximum Average Subarray I",
+    "difficulty": "Easy",
+    "tags": [
+        "sliding-window"
+    ],
+    "link": "https://leetcode.com/problems/maximum-average-subarray-i/"
+}
