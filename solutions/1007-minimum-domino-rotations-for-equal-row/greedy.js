@@ -10,11 +10,11 @@
  * @return {number}
  */
 const minDominoRotations = (tops, bottoms) => {
-    const countSwaps = (target, checkTop, checkBottom) => {
+    const countSwaps = (target, tops, bottoms) => {
         let swaps = 0;
-        for (let i = 0; i < checkTop.length; i++) {
-            if (checkTop[i] === target) continue;
-            if (checkBottom[i] === target) {
+        for (let i = 0; i < tops.length; i++) {
+            if (tops[i] === target) continue;
+            if (bottoms[i] === target) {
                 swaps++;
                 continue;
             }
@@ -24,13 +24,14 @@ const minDominoRotations = (tops, bottoms) => {
     };
 
     const candidates = [tops[0], bottoms[0]];
-    let minSwaps = Infinity;
+    let min = Infinity;
 
-    for (const candidate of candidates) {
-        const topSwaps = countSwaps(candidate, tops, bottoms),
-            bottomSwaps = countSwaps(candidate, bottoms, tops);
-        minSwaps = Math.min(minSwaps, topSwaps, bottomSwaps);
-    }
+    for (const candidate of candidates)
+        min = Math.min(
+            min,
+            countSwaps(candidate, tops, bottoms),
+            countSwaps(candidate, bottoms, tops)
+        );
 
-    return minSwaps === Infinity ? -1 : minSwaps;
+    return min === Infinity ? -1 : min;
 };
