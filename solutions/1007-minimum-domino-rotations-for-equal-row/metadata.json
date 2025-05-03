@@ -1,0 +1,10 @@
+{
+    "id": 1007,
+    "title": "Minimum Domino Rotations For Equal Row",
+    "difficulty": "Medium",
+    "tags": [
+        "array",
+        "greedy"
+    ],
+    "link": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/"
+}
