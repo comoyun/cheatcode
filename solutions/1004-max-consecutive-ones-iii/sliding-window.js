@@ -18,7 +18,7 @@ const longestOnes = (nums, k) => {
         let length = right - left + 1;
         count += nums[right];
         while (count + k < length) {
-            if (nums[left++]) count--;
+            count -= nums[left++];
             length = right - left + 1;
         }
         longest = Math.max(longest, Math.min(count + k, nums.length));
