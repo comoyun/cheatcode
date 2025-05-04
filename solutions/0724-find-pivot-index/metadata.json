@@ -1,0 +1,10 @@
+{
+    "id": 724,
+    "title": "Find Pivot Index",
+    "difficulty": "Easy",
+    "tags": [
+        "prefix-sum",
+        "array"
+    ],
+    "link": "https://leetcode.com/problems/find-pivot-index/"
+}
