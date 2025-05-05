@@ -1,0 +1,10 @@
+{
+    "id": 790,
+    "title": "Domino and Tromino Tiling",
+    "difficulty": "Medium",
+    "tags": [
+        "dynamic-programming",
+        "backtrack"
+    ],
+    "link": "https://leetcode.com/problems/domino-and-tromino-tiling/"
+}
