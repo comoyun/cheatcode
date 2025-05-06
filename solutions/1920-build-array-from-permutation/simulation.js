@@ -1,5 +1,5 @@
 /*
- * @title: Build Array from Permutation
+ * @title: Simulation
  * @time: O(n)
  * @space: O(n)
  */
