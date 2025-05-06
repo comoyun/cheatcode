@@ -1,0 +1,10 @@
+{
+    "id": 1920,
+    "title": "Build Array from Permutation",
+    "difficulty": "Easy",
+    "tags": [
+        "array",
+        "simulation"
+    ],
+    "link": "https://leetcode.com/problems/build-array-from-permutation/description/"
+}
