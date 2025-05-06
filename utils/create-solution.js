@@ -27,7 +27,6 @@ const main = async () => {
     readline.close();
 
     id = parseInt(id);
-
     if (Number.isNaN(id)) {
         console.error('Invalid problem id');
         process.exit(1);
@@ -38,7 +37,8 @@ const main = async () => {
 
     const metadata = { id, title, difficulty, tags, link };
 
-    const folderName = `${zeroPad(id)}-${title.toLowerCase().replaceAll(' ', '-')}`;
+    const slug = title.toLowerCase().trim().replaceAll(/\s+/g, '-');
+    const folderName = `${zeroPad(id)}-${slug}`;
     const folderPath = path.resolve(solutionsPath, folderName);
 
     if (fs.existsSync(folderPath)) {
@@ -49,22 +49,29 @@ const main = async () => {
     fs.mkdirSync(folderPath, { recursive: true });
     fs.writeFileSync(
         path.join(folderPath, 'metadata.json'),
-        JSON.stringify(metadata, null, 4),
+        JSON.stringify(metadata, null, 2),
         'utf8'
     );
 
-    // Create index.js file
-    const indexContent = `/*
- * @title: ${title}
- * @time: 
- * @space: 
+    // pick first slug part for filename, or fall back to "index"
+    const parts = slug.split('-').filter(Boolean);
+    const baseName = parts[0] || 'index';
+
+    const header = `/*
+ * @title: ${slug}
+ * @time: O(n)
+ * @space: O(n)
  */
 `;
-    fs.writeFileSync(path.join(folderPath, 'index.js'), indexContent, 'utf8');
 
-    console.log(`Created ${folderPath}/metadata.json and index.js`);
-    console.log('Path copied to clipboard!');
+    const fileName = `${baseName}.js`;
+    fs.writeFileSync(path.join(folderPath, fileName), header, 'utf8');
+
+    console.log(
+        `Created:\n  ${folderPath}/metadata.json\n  ${folderPath}/${fileName}`
+    );
     clipboardy.writeSync(folderPath);
+    console.log('Path copied to clipboard!');
 };
 
 main();
