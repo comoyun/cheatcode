@@ -32,10 +32,12 @@ const main = async () => {
         process.exit(1);
     }
 
-    tags = tags.split(' ').filter(Boolean);
+    const tagList = tags.split(' ').filter(Boolean);
+    const tag = tagList[0]?.toLowerCase() || 'index';
+    const tagTitle = capitalize(tag);
     difficulty = capitalize(difficulty);
 
-    const metadata = { id, title, difficulty, tags, link };
+    const metadata = { id, title, difficulty, link };
 
     const slug = title.toLowerCase().trim().replaceAll(/\s+/g, '-');
     const folderName = `${zeroPad(id)}-${slug}`;
@@ -53,18 +55,14 @@ const main = async () => {
         'utf8'
     );
 
-    // pick first slug part for filename, or fall back to "index"
-    const parts = slug.split('-').filter(Boolean);
-    const baseName = parts[0] || 'index';
-
     const header = `/*
- * @title: ${slug}
+ * @title: ${tagTitle}
  * @time: O(n)
  * @space: O(n)
  */
 `;
 
-    const fileName = `${baseName}.js`;
+    const fileName = `${tag}.js`;
     fs.writeFileSync(path.join(folderPath, fileName), header, 'utf8');
 
     console.log(
