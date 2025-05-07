@@ -1,6 +1,6 @@
 /*
- * @title: Graph
- * @time:  O(n²)
+ * @title: Heap
+ * @time: O(n log n)
  * @space: O(n)
  */
 
@@ -9,7 +9,7 @@
  * @return {number}
  */
 const minTimeToReach = moveTime => {
-    const queue = [[0, 0, 0]],
+    const queue = new Heap((a, b) => a[2] - b[2]),
         directions = [
             [1, 0],
             [0, 1],
@@ -19,25 +19,26 @@ const minTimeToReach = moveTime => {
         height = moveTime.length,
         width = moveTime[0].length;
 
-    const visits = Array.from({ length: height }, () => Array(width).fill(0));
-    let result = Infinity;
+    queue.insert([0, 0, 0]);
 
-    while (queue.length) {
-        const [r, c, t] = queue.shift();
-        /* WARNING: Fails on LeetCode */
-        if (++visits[r][c] > 500) continue;
-        if (r === height - 1 && c === width - 1) {
-            result = Math.min(t, result);
-            continue;
-        }
+    const visited = {};
+
+    while (queue.size()) {
+        const [r, c, t] = queue.remove();
+        if (r === height - 1 && c === width - 1) return t;
+
+        const key = `${r},${c}`;
+        if (key in visited) continue;
+        visited[key] = true;
+
         for (const [dr, dc] of directions) {
             const nr = r + dr,
                 nc = c + dc;
             if (nr < 0 || nr >= height || nc < 0 || nc >= width) continue;
             const nt = Math.max(t, moveTime[nr][nc]) + 1;
-            queue.push([nr, nc, nt]);
+            queue.insert([nr, nc, nt]);
         }
     }
 
-    return result === Infinity ? -1 : result;
+    return -1;
 };
