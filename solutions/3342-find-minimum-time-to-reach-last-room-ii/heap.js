@@ -9,7 +9,7 @@
  * @return {number}
  */
 const minTimeToReach = moveTime => {
-    const queue = new Heap(([, , a], [, , b]) => a - b),
+    const queue = new Heap((a, b) => a[2] - b[2]),
         directions = [
             [1, 0],
             [0, 1],
