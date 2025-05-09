@@ -17,4 +17,3 @@ const validMountainArray = a => {
     return i === n - 1;
 };
 
-console.log(validMountainArray([1, 2, 3, 2, 1]));
