@@ -1,0 +1,7 @@
+{
+  "id": 3343,
+  "title": "Count Number of Balanced Permutations",
+  "tags": ["dfs"],
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-number-of-balanced-permutations/"
+}
