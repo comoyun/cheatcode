@@ -32,12 +32,12 @@ const main = async () => {
         process.exit(1);
     }
 
-    const tagList = tags.split(' ').filter(Boolean);
-    const tag = tagList[0]?.toLowerCase() || 'index';
+    tags = tags.split(' ').filter(Boolean);
+    const tag = tags[0]?.toLowerCase() || 'index';
     const tagTitle = capitalize(tag);
     difficulty = capitalize(difficulty);
 
-    const metadata = { id, title, difficulty, link };
+    const metadata = { id, title, difficulty, link, tags };
 
     const slug = title.toLowerCase().trim().replaceAll(/\s+/g, '-');
     const folderName = `${zeroPad(id)}-${slug}`;
