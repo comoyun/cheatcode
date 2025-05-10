@@ -1,0 +1,10 @@
+{
+    "id": 1207,
+    "title": "Unique Number of Occurrences",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/unique-number-of-occurrences/",
+    "tags": [
+        "hashmap",
+        "array"
+    ]
+}
