@@ -1,0 +1,10 @@
+{
+    "id": 2918,
+    "title": "Minimum Equal Sum of Two Arrays After Replacing Zeroes",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/",
+    "tags": [
+        "greedy",
+        "array"
+    ]
+}
