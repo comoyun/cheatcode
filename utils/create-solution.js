@@ -51,7 +51,7 @@ const main = async () => {
     fs.mkdirSync(folderPath, { recursive: true });
     fs.writeFileSync(
         path.join(folderPath, 'metadata.json'),
-        JSON.stringify(metadata, null, 2),
+        JSON.stringify(metadata, null, 4),
         'utf8'
     );
 
