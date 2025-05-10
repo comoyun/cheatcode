@@ -1,0 +1,11 @@
+{
+    "id": 2215,
+    "title": "Find the Difference of Two Arrays",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
+    "tags": [
+        "array",
+        "two-pointers",
+        "hashmap"
+    ]
+}
