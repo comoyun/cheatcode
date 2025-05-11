@@ -1,7 +1,7 @@
 /*
- * @title: Index
+ * @title: Array
  * @time: O(n)
- * @space: O(n)
+ * @space: O(1)
  */
 
 /**
