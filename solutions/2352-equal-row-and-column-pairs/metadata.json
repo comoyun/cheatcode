@@ -1,0 +1,11 @@
+{
+    "id": 2352,
+    "title": "Equal Row and Column Pairs",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/equal-row-and-column-pairs/",
+    "tags": [
+        "hashmap",
+        "matrix",
+        "simulation"
+    ]
+}
