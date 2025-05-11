@@ -3,5 +3,5 @@
     "title": "Three Consecutive Odds",
     "difficulty": "Easy",
     "link": "https://leetcode.com/problems/three-consecutive-odds/",
-    "tags": ["array"]
+    "tags": ["array", "counting"]
 }
