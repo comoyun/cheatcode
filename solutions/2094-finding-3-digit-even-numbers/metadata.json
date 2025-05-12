@@ -1,0 +1,12 @@
+{
+    "id": 2094,
+    "title": "Finding 3-Digit Even Numbers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/finding-3-digit-even-numbers/",
+    "tags": [
+        "hashmap",
+        "array",
+        "sorting",
+        "enumeration"
+    ]
+}
