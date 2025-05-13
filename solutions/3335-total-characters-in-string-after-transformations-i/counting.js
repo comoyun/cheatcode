@@ -10,8 +10,8 @@
  * @return {number}
  */
 const lengthAfterTransformations = (s, t) => {
-    const mod = 1e9 + 7,
-        freq = Array(26).fill(0);
+    const mod = 1e9 + 7;
+    let freq = Array(26).fill(0);
 
     for (const char of s) freq[char.charCodeAt(0) - 97]++;
 
@@ -27,7 +27,7 @@ const lengthAfterTransformations = (s, t) => {
             newFreq[i + 1] = (newFreq[i + 1] + freq[i]) % mod;
         }
 
-        for (let i = 0; i < 26; i++) freq[i] = newFreq[i];
+        freq = newFreq;
     }
 
     return freq.reduce((acc, count) => (acc + count) % mod, 0);
