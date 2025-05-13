@@ -1,0 +1,10 @@
+{
+    "id": 933,
+    "title": "Number of Recent Calls",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/number-of-recent-calls/",
+    "tags": [
+        "queue",
+        "design"
+    ]
+}
