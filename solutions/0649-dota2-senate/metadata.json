@@ -1,0 +1,10 @@
+{
+    "id": 649,
+    "title": "Dota2 Senate",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/dota2-senate/",
+    "tags": [
+        "queue",
+        "string"
+    ]
+}
