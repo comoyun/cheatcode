@@ -1,0 +1,12 @@
+{
+    "id": 2900,
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/",
+    "tags": [
+        "greedy",
+        "array",
+        "string",
+        "dynamic-programming"
+    ]
+}
