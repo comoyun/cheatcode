@@ -1,0 +1,10 @@
+{
+    "id": 2130,
+    "title": "Maximum Twin Sum of a Linked List",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+    "tags": [
+        "stack",
+        "linked-list"
+    ]
+}
