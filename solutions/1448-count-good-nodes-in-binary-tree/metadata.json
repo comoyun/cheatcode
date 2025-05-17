@@ -1,0 +1,10 @@
+{
+    "id": 1448,
+    "title": "Count Good Nodes in Binary Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "tags": [
+        "dfs",
+        "binary-tree"
+    ]
+}
