@@ -1,0 +1,10 @@
+{
+    "id": 1372,
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/",
+    "tags": [
+        "dfs",
+        "binary-tree"
+    ]
+}
