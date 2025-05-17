@@ -5,6 +5,7 @@
     "link": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
     "tags": [
         "stack",
-        "linked-list"
+        "linked-list",
+        "two-pointers"
     ]
 }
