@@ -1,0 +1,10 @@
+{
+    "id": 236,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "tags": [
+        "dfs",
+        "binary-tree"
+    ]
+}
