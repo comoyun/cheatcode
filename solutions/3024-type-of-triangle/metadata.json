@@ -1,0 +1,11 @@
+{
+    "id": 3024,
+    "title": "Type of Triangle",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/type-of-triangle/",
+    "tags": [
+        "math",
+        "array",
+        "sorting"
+    ]
+}
