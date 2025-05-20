@@ -1,6 +1,6 @@
 /*
- * @title: Array
- * @time: O(n)
+ * @title: Prefix Sum
+ * @time: O(n + q)
  * @space: O(n)
  */
 
@@ -9,10 +9,10 @@
  * @param {number[][]} queries
  * @return {boolean}
  */
-const isZeroArray = (nums, ranges) => {
+const isZeroArray = (nums, queries) => {
     const diff = new Array(nums.length + 1).fill(0);
 
-    for (const [l, r] of ranges) {
+    for (const [l, r] of queries) {
         diff[l]++;
         diff[r + 1]--;
     }
