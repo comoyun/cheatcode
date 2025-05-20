@@ -1,0 +1,11 @@
+{
+    "id": 1161,
+    "title": "Maximum Level Sum of a Binary Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+    "tags": [
+        "bfs",
+        "dfs",
+        "binary-tree"
+    ]
+}
