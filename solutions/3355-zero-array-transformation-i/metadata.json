@@ -4,6 +4,7 @@
     "difficulty": "Medium",
     "link": "https://leetcode.com/problems/zero-array-transformation-i/",
     "tags": [
-        "array"
+        "array",
+        "prefix-sum"
     ]
 }
