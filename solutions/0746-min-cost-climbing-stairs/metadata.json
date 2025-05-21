@@ -1,0 +1,10 @@
+{
+    "id": 746,
+    "title": "Min Cost Climbing Stairs",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+    "tags": [
+        "dynamic-programming",
+        "array"
+    ]
+}
