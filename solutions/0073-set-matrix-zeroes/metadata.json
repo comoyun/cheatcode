@@ -1,0 +1,12 @@
+{
+    "id": 73,
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "tags": [
+        "array",
+        "hashmap",
+        "matrix",
+        "hack"
+    ]
+}
