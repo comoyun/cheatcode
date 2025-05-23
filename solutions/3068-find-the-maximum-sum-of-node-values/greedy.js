@@ -1,7 +1,7 @@
 /*
  * @title: Greedy
  * @time: O(n)
- * @space: O(n)
+ * @space: O(1)
  */
 
 /**
@@ -32,4 +32,3 @@ const maximumValueSum = (nums, k, edges) => {
     if (count & 1) sum -= min;
     return sum;
 };
-
