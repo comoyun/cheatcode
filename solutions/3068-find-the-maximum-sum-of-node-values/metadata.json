@@ -1,0 +1,11 @@
+{
+    "id": 3068,
+    "title": "Find the Maximum Sum of Node Values",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+    "tags": [
+        "greedy",
+        "array",
+        "tree"
+    ]
+}
