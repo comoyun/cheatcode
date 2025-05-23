@@ -1,0 +1,11 @@
+{
+    "id": 841,
+    "title": "Keys and Rooms",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/keys-and-rooms/",
+    "tags": [
+        "dfs",
+        "graph",
+        "bfs"
+    ]
+}
