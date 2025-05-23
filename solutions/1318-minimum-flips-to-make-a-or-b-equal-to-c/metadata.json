@@ -1,0 +1,9 @@
+{
+    "id": 1318,
+    "title": "Minimum Flips to Make a OR b equal to c",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/",
+    "tags": [
+        "bit-manipulation"
+    ]
+}
