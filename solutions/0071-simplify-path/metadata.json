@@ -1,0 +1,10 @@
+{
+    "id": 71,
+    "title": "Simplify Path",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/simplify-path/",
+    "tags": [
+        "stack",
+        "string"
+    ]
+}
