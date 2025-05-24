@@ -1,0 +1,10 @@
+{
+    "id": 41,
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/first-missing-positive/",
+    "tags": [
+        "array",
+        "hash-table"
+    ]
+}
