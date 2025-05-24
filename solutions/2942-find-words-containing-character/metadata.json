@@ -1,0 +1,10 @@
+{
+    "id": 2942,
+    "title": "Find Words Containing Character",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-words-containing-character/",
+    "tags": [
+        "array",
+        "string"
+    ]
+}
