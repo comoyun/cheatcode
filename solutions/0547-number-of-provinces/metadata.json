@@ -1,0 +1,10 @@
+{
+    "id": 547,
+    "title": "Number of Provinces",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/number-of-provinces/description/",
+    "tags": [
+        "dfs",
+        "graph"
+    ]
+}
