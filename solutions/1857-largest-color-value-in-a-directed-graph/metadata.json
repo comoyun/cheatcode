@@ -1,0 +1,11 @@
+{
+    "id": 1857,
+    "title": "Largest Color Value in a Directed Graph",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/largest-color-value-in-a-directed-graph/",
+    "tags": [
+        "graph",
+        "topological-sort",
+        "dfs"
+    ]
+}
