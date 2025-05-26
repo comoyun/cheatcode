@@ -1,0 +1,9 @@
+{
+    "id": 2721,
+    "title": "Execute Asynchronous Functions in Parallel",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/",
+    "tags": [
+        "promise"
+    ]
+}
