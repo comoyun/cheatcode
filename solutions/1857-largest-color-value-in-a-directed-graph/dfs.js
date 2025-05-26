@@ -10,44 +10,45 @@
  * @return {number}
  */
 const largestPathValue = (colors, edges) => {
-    /* WARNING: Gives TLE */
+    const n = colors.length;
+    const adj = Array.from({ length: n }, () => []);
 
-    let max = 0,
-        containsCycle = false;
-    const adjList = {};
+    for (const [src, dst] of edges) adj[src].push(dst);
 
-    for (let i = 0; i < colors.length; i++) adjList[i] = [];
-    for (const [from, to] of edges) adjList[from].push(to);
+    const visit = new Set();
+    const path = new Set();
+    const count = Array.from({ length: n }, () => Array(26).fill(0));
 
-    const getId = letter => letter.charCodeAt(0) - 97;
+    const dfs = node => {
+        if (path.has(node)) return Infinity;
+        if (visit.has(node)) return 0;
 
-    const dfs = (start, visited, path) => {
-        if (containsCycle) return;
-        if (visited.has(start)) {
-            containsCycle = true;
-            return;
+        visit.add(node);
+        path.add(node);
+
+        const colorIndex = colors.charCodeAt(node) - 'a'.charCodeAt(0);
+        count[node][colorIndex] = 1;
+
+        for (const nei of adj[node]) {
+            if (dfs(nei) === Infinity) return Infinity;
+            for (let c = 0; c < 26; c++) {
+                count[node][c] = Math.max(
+                    count[node][c],
+                    count[nei][c] + (c === colorIndex ? 1 : 0)
+                );
+            }
         }
 
-        visited.add(start);
-        path[getId(colors[start])]++;
-
-        max = Math.max(max, Math.max(...path));
-
-        for (const to of adjList[start]) {
-            dfs(to, visited, path);
-            if (containsCycle) return;
-        }
-
-        visited.delete(start);
-        path[getId(colors[start])]--;
+        path.delete(node);
+        return Math.max(...count[node]);
     };
 
-    for (let i = 0; i < colors.length; i++) {
-        const visited = new Set();
-        const path = new Array(26).fill(0);
-        dfs(i, visited, path);
-        if (containsCycle) break;
+    let res = 0;
+    for (let i = 0; i < n; i++) {
+        const val = dfs(i);
+        if (val === Infinity) return -1;
+        res = Math.max(res, val);
     }
 
-    return containsCycle ? -1 : max;
+    return res;
 };
