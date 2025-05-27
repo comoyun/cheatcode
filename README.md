@@ -62,6 +62,11 @@ Want to contribute? Great. Please follow these rules:
 3. **Update or add `metadata.json`**. You can use utility functions to help with this.
 4. **Write clean, readable code.**
 
+Note that if you are not sure about time and space complexity of your solution, you can click on "Analyze Complexity" on LeetCode submission tab:
+
+![image](https://github.com/user-attachments/assets/095781f1-a260-4afd-aee2-36eb3134cbca)
+
+
 ## 📝 Legal Disclaimer
 
 This repository is shared for collaboration and learning. Copying and pasting code directly without understanding it is discouraged. Use these solutions as references and focus on understanding the reasoning behind each implementation.
