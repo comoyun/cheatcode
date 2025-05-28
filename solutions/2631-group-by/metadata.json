@@ -1,0 +1,9 @@
+{
+    "id": 2631,
+    "title": "Group By",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/group-by/description/",
+    "tags": [
+        "hashmap"
+    ]
+}
