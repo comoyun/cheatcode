@@ -1,0 +1,11 @@
+{
+    "id": 2722,
+    "title": "Join Two Arrays by ID",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/join-two-arrays-by-id/",
+    "tags": [
+        "two-pointers",
+        "hashmap",
+        "brute-force"
+    ]
+}
