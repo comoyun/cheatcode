@@ -1,6 +1,6 @@
 /*
  * @title: Heap
- * @time: O(n)
+ * @time: O(n log n)
  * @space: O(n)
  */
 
@@ -47,4 +47,3 @@ const totalCost = (costs, k, candidates) => {
 
     return total;
 };
-
