@@ -1,10 +1,12 @@
-# 🔍 CheatCode
+![CheatCode](https://github.com/user-attachments/assets/a7597903-8839-4799-9d79-cc90bb613adf)
+
+# About
 
 This repository contains solutions to LeetCode problems I've solved as part of my preparation for interviews with FAANG (Facebook, Amazon, Apple, Netflix, Google) and other tech companies. The goal is to document my progress and learn from the solutions shared by the community.
 
-## 📁 Project Structure
+# File Tree
 
-Each solution is stored in its own _folder_ under `/solutions/`. Each folder has different ways to solve the same problem, in multiple languages.
+Each solution is stored in its own folder inside `/solutions/`. Each folder has different ways to solve the same problem, in multiple languages.
 
 ```
 solutions/
@@ -17,26 +19,39 @@ solutions/
     └─ metadata.json
 ```
 
-- **metadata.json** includes the problem ID, title, tags, difficulty, and a link to the LeetCode problem (used for analysis, generating reports, and supporting the web interface).
-- **Files and folders** are named using kebab-case (e.g., `brute-force.js`, `two-pointers.py`) and solution files start with a header comment like this:
-    ```js
-    /* 
-    @title Type of solution (e.g., Binary Search, Greedy + Sorting)
-    @time O(n) 
-    @space O(n) 
-    */
-    ```
+`metadata.json` includes the problem ID, title, tags, difficulty, and a link to the LeetCode problem (used for analysis, generating reports, and supporting the web interface). Example:
 
-## 🛠️ Utilities
+```json
+{
+    "id": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "tags": ["hash-table", "array", "brute-force", "two-pointers"],
+    "link": "https://leetcode.com/problems/two-sum/description/"
+}
+```
 
-All CLI tools are in `/utils/` and follow the Unix philosophy: minimal, single-purpose.
-You can run them from the project root using `npm run script-name`:
+**Files and folders** are named using kebab-case (e.g., `brute-force.js`, `two-pointers.py`) and solution files start with a header comment like this:
 
-- `create-problem`: Generates new solution folder and metadata files for you.
-- `parse-metadata`: Combines metadata and code headers into an index.
-- `generate-table`: Creates a solutions table and updates `solutions.md`.
+```js
+/*
+ * @title Type of solution (e.g., Binary Search, Greedy + Sorting)
+ * @time O(n)
+ * @space O(n)
+ */
+```
 
-## 📦 Commit Format
+# Utilities
+
+I usually work in the terminal, so I made some CLI tools to make things easier.
+They're all in the `/utils/` folder and follow the Unix rule: small tools that do one thing well.
+You can run them from the project root using `npm run <script>`
+
+- `create-problem`: makes a new folder with starter files for a problem.
+- `parse-metadata`: collects info from all problems and puts it into one index.
+- `generate-table`: builds the solutions table and updates 'solutions.md'.
+
+# Commit Format
 
 We **enforce strict commit naming**. Use the following format:
 
@@ -52,7 +67,7 @@ refactor: simplify     # No behavior change
 
 PRs with incorrect commit messages will be rejected.
 
-## 🤝 Contributing
+# Contributing
 
 Want to contribute? Great. Please follow these rules:
 
@@ -62,11 +77,10 @@ Want to contribute? Great. Please follow these rules:
 3. **Update or add `metadata.json`**. You can use utility functions to help with this.
 4. **Write clean, readable code.**
 
-Note that if you are not sure about time and space complexity of your solution, you can click on "Analyze Complexity" on LeetCode submission tab:
+Note that if you are not sure about time and space complexity of your solution, you can click on "Analyze Complexity" on LeetCode submissions tab:
 
 ![image](https://github.com/user-attachments/assets/095781f1-a260-4afd-aee2-36eb3134cbca)
 
-
-## 📝 Legal Disclaimer
+# Disclaimer
 
 This repository is shared for collaboration and learning. Copying and pasting code directly without understanding it is discouraged. Use these solutions as references and focus on understanding the reasoning behind each implementation.
