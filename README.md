@@ -65,7 +65,8 @@ style: reformat code   # Code style changes
 refactor: simplify     # No behavior change
 ```
 
-PRs with incorrect commit messages will be rejected.
+Run `npm install` to install Commitizen. It reads this config to enforce the format.
+Use `git cz` to commit with the correct format automatically.
 
 # Contributing
 
@@ -79,7 +80,7 @@ Want to contribute? Great. Please follow these rules:
 
 Note that if you are not sure about time and space complexity of your solution, you can click on "Analyze Complexity" on LeetCode submissions tab:
 
-![image](https://github.com/user-attachments/assets/095781f1-a260-4afd-aee2-36eb3134cbca)
+![image](https://github.com/user-attachments/assets/a74b3393-d414-4b04-8b94-0e313602769e)
 
 # Disclaimer
 
