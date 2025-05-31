@@ -1,0 +1,10 @@
+{
+    "id": 2726,
+    "title": "Calculator with Method Chaining",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/calculator-with-method-chaining/",
+    "tags": [
+        "design",
+        "array"
+    ]
+}
