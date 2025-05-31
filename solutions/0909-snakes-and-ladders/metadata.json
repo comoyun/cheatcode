@@ -1,0 +1,9 @@
+{
+    "id": 909,
+    "title": "Snakes and Ladders",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/snakes-and-ladders/",
+    "tags": [
+        "bfs"
+    ]
+}
