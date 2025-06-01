@@ -1,0 +1,13 @@
+{
+    "id": 231,
+    "title": "Power of Two",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/power-of-two/",
+    "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion",
+        "brute-force",
+        "binary-search"
+    ]
+}
