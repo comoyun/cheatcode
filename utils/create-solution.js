@@ -1,75 +1,82 @@
 import fs from 'fs';
-import clipboardy from 'clipboardy';
 import path from 'path';
-import { createInterface } from 'node:readline';
+import clipboardy from 'clipboardy';
+import { createInterface } from 'readline/promises';
+import { stdin as input, stdout as output } from 'node:process';
 
-const readline = createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
-
-const ask = q =>
-    new Promise(res => readline.question(`${q} `, a => res(a.trim())));
-
-const zeroPad = num => String(num).padStart(4, '0');
-const capitalize = str =>
-    str ? str[0].toUpperCase() + str.slice(1).toLowerCase() : '';
-
+const API_BASE_URL = 'https://leetcode-api-pied.vercel.app';
 const solutionsPath = './solutions';
 
+const ask = async q => {
+    const rl = createInterface({ input, output });
+    const answer = await rl.question(`${q} `);
+    rl.close();
+    return answer.trim();
+};
+
+const fetchProblemData = async id => {
+    const res = await fetch(`${API_BASE_URL}/problem/${id}`);
+    if (!res.ok) throw new Error(`API failed: ${res.status}`);
+    return res.json();
+};
+
 const main = async () => {
-    let id = await ask('Problem id:');
-    let title = await ask('Problem title:');
-    let difficulty = await ask('Problem difficulty:');
-    let tags = await ask('Problem tags (space separated):');
-    let link = await ask('Problem link:');
+    try {
+        const idRaw = await ask('Problem id:');
+        const id = Number(idRaw);
+        if (!Number.isInteger(id)) throw new Error('Invalid problem id');
 
-    readline.close();
+        const {
+            title,
+            difficulty,
+            titleSlug,
+            topicTags = [],
+            url,
+        } = await fetchProblemData(id);
 
-    id = parseInt(id);
-    if (Number.isNaN(id)) {
-        console.error('Invalid problem id');
-        process.exit(1);
-    }
+        const slug = title.toLowerCase().replace(/\s+/g, '-');
+        const folderName = `${String(id).padStart(4, '0')}-${slug}`;
+        const folderPath = path.resolve(solutionsPath, folderName);
 
-    tags = tags.split(' ').filter(Boolean);
-    const tag = tags[0]?.toLowerCase() || 'index';
-    const tagTitle = capitalize(tag);
-    difficulty = capitalize(difficulty);
+        if (fs.existsSync(folderPath))
+            throw new Error(`"${folderName}" exists`);
 
-    const metadata = { id, title, difficulty, link, tags };
+        fs.mkdirSync(folderPath, { recursive: true });
 
-    const slug = title.toLowerCase().trim().replaceAll(/\s+/g, '-');
-    const folderName = `${zeroPad(id)}-${slug}`;
-    const folderPath = path.resolve(solutionsPath, folderName);
+        const tags = topicTags
+            .map(tag => (typeof tag === 'string' ? tag : tag.name))
+            .filter(Boolean)
+            .map(t => t.toLowerCase().replace(/\s+/g, '-'));
 
-    if (fs.existsSync(folderPath)) {
-        console.error(`"${folderName}" already exists.`);
-        process.exit(1);
-    }
+        const metadata = {
+            id,
+            title,
+            difficulty,
+            link: url || `https://leetcode.com/problems/${titleSlug}/`,
+            tags,
+        };
 
-    fs.mkdirSync(folderPath, { recursive: true });
-    fs.writeFileSync(
-        path.join(folderPath, 'metadata.json'),
-        JSON.stringify(metadata, null, 4),
-        'utf8'
-    );
+        fs.writeFileSync(
+            path.join(folderPath, 'metadata.json'),
+            JSON.stringify(metadata, null, 4)
+        );
 
-    const header = `/*
- * @title: ${tagTitle}
+        fs.writeFileSync(
+            path.join(folderPath, 'index.js'),
+            `/*
+ * @title: Type
  * @time: O(n)
- * @space: O(n)
+ * @space: O(1)
  */
-`;
+`);
 
-    const fileName = `${tag}.js`;
-    fs.writeFileSync(path.join(folderPath, fileName), header, 'utf8');
-
-    console.log(
-        `Created:\n  ${folderPath}/metadata.json\n  ${folderPath}/${fileName}`
-    );
-    clipboardy.writeSync(folderPath);
-    console.log('Path copied to clipboard!');
+        console.log(`✅ Created ${folderPath}`);
+        clipboardy.writeSync(folderPath);
+        console.log('📋 Path copied to clipboard!');
+    } catch (err) {
+        console.error(`❌ ${err.message}`);
+        process.exit(1);
+    }
 };
 
 main();
