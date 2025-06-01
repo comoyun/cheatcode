@@ -6,6 +6,7 @@
     "tags": [
         "tree",
         "breadth-first-search",
+        "depth-first-search",
         "binary-tree"
     ]
 }
