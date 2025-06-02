@@ -1,0 +1,10 @@
+{
+    "id": 135,
+    "title": "Candy",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/candy/",
+    "tags": [
+        "array",
+        "greedy"
+    ]
+}
