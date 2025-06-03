@@ -1,0 +1,11 @@
+{
+    "id": 1298,
+    "title": "Maximum Candies You Can Get from Boxes",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/",
+    "tags": [
+        "array",
+        "breadth-first-search",
+        "graph"
+    ]
+}
