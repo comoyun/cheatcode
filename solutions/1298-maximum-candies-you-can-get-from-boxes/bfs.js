@@ -13,48 +13,39 @@
  * @return {number}
  */
 const maxCandies = (status, candies, keys, containedBoxes, initialBoxes) => {
-    const queue = [...initialBoxes];
-    const keyless = [];
-    const availableKeys = new Set();
-    let result = 0;
+    const n = status.length,
+        visited = new Array(n).fill(false),
+        queue = [],
+        closedBoxes = new Set(),
+        availableKeys = new Set();
+    let front = 0,
+        result = 0;
 
-    while (queue.length) {
-        while (queue.length) {
-            const box = queue.shift();
+    for (const box of initialBoxes) {
+        if (status[box]) queue.push(box);
+        else closedBoxes.add(box);
+    }
 
-            if (status[box] === 2) continue;
-            if (!status[box] && !availableKeys.has(box)) {
-                keyless.push(box);
-                continue;
-            }
+    while (front < queue.length) {
+        const box = queue[front++];
+        if (visited[box]) continue;
+        visited[box] = true;
+        result += candies[box];
 
-            for (const key of keys[box]) availableKeys.add(key);
-
-            for (const containedBox of containedBoxes[box]) {
-                if (status[containedBox] === 2) continue;
-
-                if (status[containedBox] === 1) {
-                    queue.push(containedBox);
-                    continue;
-                }
-
-                if (status[containedBox] === 0) {
-                    if (availableKeys.has(containedBox))
-                        queue.push(containedBox);
-                    else keyless.push(containedBox);
+        for (const key of keys[box]) {
+            if (!availableKeys.has(key)) {
+                availableKeys.add(key);
+                if (closedBoxes.has(key)) {
+                    closedBoxes.delete(key);
+                    queue.push(key);
                 }
             }
-
-            status[box] = 2;
-            result += candies[box];
         }
 
-        for (let i = keyless.length - 1; i >= 0; i--) {
-            const b = keyless[i];
-            if (availableKeys.has(b)) {
-                queue.push(b);
-                keyless.splice(i, 1);
-            }
+        for (const next of containedBoxes[box]) {
+            if (visited[next]) continue;
+            if (status[next] || availableKeys.has(next)) queue.push(next);
+            else closedBoxes.add(next);
         }
     }
 
