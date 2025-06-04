@@ -1,0 +1,11 @@
+{
+    "id": 3403,
+    "title": "Find the Lexicographically Largest String From the Box I",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/",
+    "tags": [
+        "two-pointers",
+        "string",
+        "enumeration"
+    ]
+}
