@@ -1,0 +1,11 @@
+{
+    "id": 89,
+    "title": "Gray Code",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/gray-code/",
+    "tags": [
+        "math",
+        "backtracking",
+        "bit-manipulation"
+    ]
+}
