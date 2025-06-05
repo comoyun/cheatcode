@@ -1,0 +1,10 @@
+{
+    "id": 1061,
+    "title": "Lexicographically Smallest Equivalent String",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lexicographically-smallest-equivalent-string/",
+    "tags": [
+        "string",
+        "union-find"
+    ]
+}
