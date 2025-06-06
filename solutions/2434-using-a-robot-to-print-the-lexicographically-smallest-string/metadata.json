@@ -1,0 +1,12 @@
+{
+    "id": 2434,
+    "title": "Using a Robot to Print the Lexicographically Smallest String",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/",
+    "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "greedy"
+    ]
+}
