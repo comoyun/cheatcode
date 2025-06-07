@@ -1,0 +1,13 @@
+{
+    "id": 3170,
+    "title": "Lexicographically Minimum String After Removing Stars",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/",
+    "tags": [
+        "hash-table",
+        "string",
+        "stack",
+        "greedy",
+        "heap"
+    ]
+}
