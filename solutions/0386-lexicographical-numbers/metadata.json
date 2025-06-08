@@ -1,0 +1,11 @@
+{
+    "id": 386,
+    "title": "Lexicographical Numbers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lexicographical-numbers/",
+    "tags": [
+        "depth-first-search",
+        "sorting",
+        "trie"
+    ]
+}
