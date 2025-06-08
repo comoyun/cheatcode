@@ -1,0 +1,11 @@
+{
+    "id": 1022,
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/",
+    "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+    ]
+}
