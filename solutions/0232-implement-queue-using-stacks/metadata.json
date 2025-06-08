@@ -1,0 +1,11 @@
+{
+    "id": 232,
+    "title": "Implement Queue using Stacks",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "tags": [
+        "stack",
+        "design",
+        "lazy-queue"
+    ]
+}
