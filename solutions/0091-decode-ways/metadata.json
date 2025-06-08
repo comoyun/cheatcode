@@ -1,0 +1,10 @@
+{
+    "id": 91,
+    "title": "Decode Ways",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/decode-ways/",
+    "tags": [
+        "string",
+        "dynamic-programming"
+    ]
+}
