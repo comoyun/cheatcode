@@ -1,0 +1,13 @@
+{
+    "id": 96,
+    "title": "Unique Binary Search Trees",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/unique-binary-search-trees/",
+    "tags": [
+        "math",
+        "dynamic-programming",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+    ]
+}
