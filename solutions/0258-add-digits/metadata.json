@@ -1,0 +1,11 @@
+{
+    "id": 258,
+    "title": "Add Digits",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/add-digits/",
+    "tags": [
+        "math",
+        "simulation",
+        "number-theory"
+    ]
+}
