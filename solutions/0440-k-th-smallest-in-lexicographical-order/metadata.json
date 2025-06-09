@@ -1,0 +1,9 @@
+{
+    "id": 440,
+    "title": "K-th Smallest in Lexicographical Order",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/",
+    "tags": [
+        "trie"
+    ]
+}
