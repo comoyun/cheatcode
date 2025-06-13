@@ -1,0 +1,11 @@
+{
+    "id": 905,
+    "title": "Sort Array By Parity",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/sort-array-by-parity/",
+    "tags": [
+        "array",
+        "two-pointers",
+        "sorting"
+    ]
+}
