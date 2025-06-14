@@ -25,3 +25,23 @@ const sortArrayByParity = nums => {
     return nums;
 };
 
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+const sortArrayByParityV2 = nums => {
+    let left = 0,
+        right = 0;
+
+    for (; right < nums.length; right++) {
+        const num = nums[right];
+        const isEven = (num & 1) === 0;
+        if (isEven) {
+            [nums[left], nums[right]] = [nums[right], nums[left]];
+            left++;
+        }
+    }
+
+    return nums;
+};
+
