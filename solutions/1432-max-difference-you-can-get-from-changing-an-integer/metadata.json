@@ -1,0 +1,10 @@
+{
+    "id": 1432,
+    "title": "Max Difference You Can Get From Changing an Integer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/",
+    "tags": [
+        "math",
+        "greedy"
+    ]
+}
