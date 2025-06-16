@@ -1,0 +1,11 @@
+{
+    "id": 2016,
+    "title": "Maximum Difference Between Increasing Elements",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/maximum-difference-between-increasing-elements/",
+    "tags": [
+        "array",
+        "greedy",
+        "brute-force"
+    ]
+}
