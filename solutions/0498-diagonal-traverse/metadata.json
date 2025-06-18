@@ -1,0 +1,11 @@
+{
+    "id": 498,
+    "title": "Diagonal Traverse",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/diagonal-traverse/",
+    "tags": [
+        "array",
+        "matrix",
+        "simulation"
+    ]
+}
