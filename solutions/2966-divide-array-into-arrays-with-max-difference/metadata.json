@@ -1,0 +1,11 @@
+{
+    "id": 2966,
+    "title": "Divide Array Into Arrays With Max Difference",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/",
+    "tags": [
+        "array",
+        "greedy",
+        "sorting"
+    ]
+}
