@@ -1,0 +1,13 @@
+{
+    "id": 95,
+    "title": "Unique Binary Search Trees II",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/unique-binary-search-trees-ii/",
+    "tags": [
+        "dynamic-programming",
+        "backtracking",
+        "tree",
+        "binary-search-tree",
+        "binary-tree"
+    ]
+}
