@@ -1,0 +1,11 @@
+{
+    "id": 2294,
+    "title": "Partition Array Such That Maximum Difference Is K",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/",
+    "tags": [
+        "array",
+        "greedy",
+        "sorting"
+    ]
+}
