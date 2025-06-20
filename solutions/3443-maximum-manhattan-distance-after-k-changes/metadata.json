@@ -1,0 +1,13 @@
+{
+    "id": 3443,
+    "title": "Maximum Manhattan Distance After K Changes",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/",
+    "tags": [
+        "hash-table",
+        "math",
+        "string",
+        "counting",
+        "greedy"
+    ]
+}
