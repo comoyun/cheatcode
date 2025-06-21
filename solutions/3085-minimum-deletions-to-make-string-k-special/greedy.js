@@ -10,26 +10,16 @@
  * @return {number}
  */
 const minimumDeletions = (word, k) => {
-    const freq = {};
-    for (const char of word) freq[char] = (freq[char] || 0) + 1;
-
-    const freqArr = Object.values(freq).sort((a, b) => a - b);
-    const n = freqArr.length;
-    let minDel = Infinity;
-
-    for (let i = 0; i < n; i++) {
-        const target = freqArr[i];
-        let deletions = 0;
-
-        for (let j = 0; j < n; j++) {
-            const f = freqArr[j];
-
-            if (f < target) deletions += f;
-            else if (f > target + k) deletions += f - (target + k);
+    const cnt = new Map();
+    for (const ch of word) cnt.set(ch, (cnt.get(ch) || 0) + 1);
+    let res = word.length;
+    for (const a of cnt.values()) {
+        let deleted = 0;
+        for (const b of cnt.values()) {
+            if (a > b) deleted += b;
+            else if (b > a + k) deleted += b - (a + k);
         }
-
-        minDel = Math.min(minDel, deletions);
+        res = Math.min(res, deleted);
     }
-
-    return minDel;
+    return res;
 };
