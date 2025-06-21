@@ -1,0 +1,13 @@
+{
+    "id": 3085,
+    "title": "Minimum Deletions to Make String K-Special",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/",
+    "tags": [
+        "hash-table",
+        "string",
+        "greedy",
+        "sorting",
+        "counting"
+    ]
+}
