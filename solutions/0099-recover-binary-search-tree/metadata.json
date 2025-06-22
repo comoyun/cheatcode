@@ -1,0 +1,12 @@
+{
+    "id": 99,
+    "title": "Recover Binary Search Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+    ]
+}
