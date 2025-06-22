@@ -1,0 +1,15 @@
+{
+    "id": 1268,
+    "title": "Search Suggestions System",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/search-suggestions-system/",
+    "tags": [
+        "array",
+        "string",
+        "binary-search",
+        "trie",
+        "sorting",
+        "two-pointers",
+        "heap-(priority-queue)"
+    ]
+}
