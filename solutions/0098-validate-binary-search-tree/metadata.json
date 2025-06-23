@@ -1,0 +1,12 @@
+{
+    "id": 98,
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "tags": [
+        "tree",
+        "depth-first-search",
+        "binary-search-tree",
+        "binary-tree"
+    ]
+}
