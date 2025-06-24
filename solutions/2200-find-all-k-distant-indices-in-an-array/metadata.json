@@ -1,0 +1,12 @@
+{
+    "id": 2200,
+    "title": "Find All K-Distant Indices in an Array",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/",
+    "tags": [
+        "array",
+        "interval",
+        "brute-force",
+        "two-pointers"
+    ]
+}
