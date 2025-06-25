@@ -1,0 +1,10 @@
+{
+    "id": 2040,
+    "title": "Kth Smallest Product of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/",
+    "tags": [
+        "array",
+        "binary-search"
+    ]
+}
