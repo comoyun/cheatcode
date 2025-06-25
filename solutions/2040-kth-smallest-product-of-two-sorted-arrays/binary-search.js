@@ -11,43 +11,40 @@
  * @return {number}
  */
 const kthSmallestProduct = (nums1, nums2, k) => {
-    const getSmallerCount = (x, a, arr) => {
-        if (a === 0) return x >= 0 ? arr.length : 0;
+    const getSmallerCount = (x, a) => {
+        if (a === 0) return x >= 0 ? nums2.length : 0;
 
+        let count = 0;
         let left = 0,
-            right = arr.length - 1,
-            res = 0;
+            right = nums2.length - 1;
 
-        const isPositive = a > 0;
-
-        while (left <= right) {
-            const mid = (left + right) >> 1;
-            const prod = a * arr[mid];
-
-            if (prod <= x) {
-                if (isPositive) {
-                    res = mid + 1;
+        if (a > 0) {
+            while (left <= right) {
+                const mid = Math.floor((left + right) / 2);
+                if (a * nums2[mid] <= x) {
+                    count = mid + 1;
                     left = mid + 1;
-                } else {
-                    res = arr.length - mid;
-                    right = mid - 1;
+                    continue;
                 }
-            } else {
-                if (isPositive) right = mid - 1;
-                else left = mid + 1;
+                right = mid - 1;
+            }
+        } else {
+            while (left <= right) {
+                const mid = Math.floor((left + right) / 2);
+                if (a * nums2[mid] <= x) {
+                    count = nums2.length - mid;
+                    right = mid - 1;
+                    continue;
+                }
+                left = mid + 1;
             }
         }
 
-        return res;
-    };
-
-    const getCount = x => {
-        let count = 0;
-        for (const a of nums1) {
-            count += getSmallerCount(x, a, nums2);
-        }
         return count;
     };
+
+    const getCount = x =>
+        nums1.reduce((acc, curr) => acc + getSmallerCount(x, curr), 0);
 
     let left = -1e10,
         right = 1e10,
@@ -58,14 +55,10 @@ const kthSmallestProduct = (nums1, nums2, k) => {
         if (count >= k) {
             ans = mid;
             right = mid - 1;
-        } else {
-            left = mid + 1;
+            continue;
         }
+        left = mid + 1;
     }
 
     return ans;
 };
-
-console.log(kthSmallestProduct([2, 5], [3, 4], 2));
-console.log(kthSmallestProduct([-4, -2, 0, 3], [2, 4], 6));
-console.log(kthSmallestProduct([-2, -1, 0, 1, 2], [-3, -1, 2, 4, 5], 3));
