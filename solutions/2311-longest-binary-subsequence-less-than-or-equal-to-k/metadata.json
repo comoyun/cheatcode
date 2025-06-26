@@ -1,0 +1,12 @@
+{
+    "id": 2311,
+    "title": "Longest Binary Subsequence Less Than or Equal to K",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/",
+    "tags": [
+        "string",
+        "dynamic-programming",
+        "greedy",
+        "memoization"
+    ]
+}
