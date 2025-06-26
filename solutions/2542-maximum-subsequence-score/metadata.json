@@ -1,0 +1,12 @@
+{
+    "id": 2542,
+    "title": "Maximum Subsequence Score",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-subsequence-score/",
+    "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-(priority-queue)"
+    ]
+}
