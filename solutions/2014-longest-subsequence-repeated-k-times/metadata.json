@@ -1,0 +1,13 @@
+{
+    "id": 2014,
+    "title": "Longest Subsequence Repeated k Times",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/longest-subsequence-repeated-k-times/",
+    "tags": [
+        "string",
+        "backtracking",
+        "greedy",
+        "counting",
+        "enumeration"
+    ]
+}
