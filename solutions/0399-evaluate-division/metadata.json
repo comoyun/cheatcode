@@ -1,0 +1,15 @@
+{
+    "id": 399,
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/evaluate-division/",
+    "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "graph",
+        "shortest-path"
+    ]
+}
