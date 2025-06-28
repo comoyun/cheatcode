@@ -1,0 +1,11 @@
+{
+    "id": 300,
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "tags": [
+        "array",
+        "binary-search",
+        "dynamic-programming"
+    ]
+}
