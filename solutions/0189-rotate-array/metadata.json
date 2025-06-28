@@ -1,0 +1,11 @@
+{
+    "id": 189,
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/rotate-array/",
+    "tags": [
+        "array",
+        "math",
+        "two-pointers"
+    ]
+}
