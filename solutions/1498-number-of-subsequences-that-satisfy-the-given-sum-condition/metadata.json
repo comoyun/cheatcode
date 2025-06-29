@@ -1,0 +1,12 @@
+{
+    "id": 1498,
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/",
+    "tags": [
+        "array",
+        "two-pointers",
+        "binary-search",
+        "sorting"
+    ]
+}
