@@ -1,7 +1,7 @@
 /*
  * @title: Binary Search Tree
- * @time: O(n)
- * @space: O(n)
+ * @time: O(n log n)
+ * @space: O(log n)
  */
 
 /**
