@@ -1,0 +1,13 @@
+{
+    "id": 106,
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "tags": [
+        "array",
+        "hash-table",
+        "divide-and-conquer",
+        "tree",
+        "binary-tree"
+    ]
+}
