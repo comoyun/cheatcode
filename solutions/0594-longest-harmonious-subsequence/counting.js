@@ -1,6 +1,6 @@
 /*
  * @title: Sorting + Counting
- * @time: O(n)
+ * @time: O(n log n)
  * @space: O(1)
  */
 
@@ -8,7 +8,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findLHSV2 = nums => {
+const findLHS = nums => {
     nums.sort((a, b) => a - b);
     let j = 0,
         result = 0,
