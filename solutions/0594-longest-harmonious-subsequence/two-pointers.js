@@ -1,6 +1,6 @@
 /*
  * @title: Sorting + Two Pointers
- * @time: O(n)
+ * @time: O(n log n)
  * @space: O(1)
  */
 
