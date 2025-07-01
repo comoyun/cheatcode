@@ -11,15 +11,15 @@
 const possibleStringCount = word => {
     const n = word.length;
     let i = 0;
-    let result = 0;
+    let result = 1;
     while (i < n) {
-        const char = word[i];
         let count = 1;
+        while (i + count < n && word[i + count] === word[i]) count++;
 
-        while (i + count < n && word[i + count] === char) count++;
+        // Single letters are typed intentionally.
         if (count > 1) result += count - 1;
 
         i += count;
     }
-    return result + 1;
+    return result;
 };
