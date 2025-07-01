@@ -1,5 +1,5 @@
 /*
- * @title: Type
+ * @title: Dynamic Programming
  * @time: O(n)
  * @space: O(1)
  */
