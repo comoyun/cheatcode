@@ -1,0 +1,13 @@
+{
+    "id": 130,
+    "title": "Surrounded Regions",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/surrounded-regions/",
+    "tags": [
+        "array",
+        "depth-first-search",
+        "breadth-first-search",
+        "union-find",
+        "matrix"
+    ]
+}

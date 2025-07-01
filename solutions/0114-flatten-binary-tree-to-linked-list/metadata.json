@@ -1,0 +1,13 @@
+{
+    "id": 114,
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "tags": [
+        "linked-list",
+        "stack",
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+    ]
+}
