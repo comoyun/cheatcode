@@ -1,0 +1,12 @@
+{
+    "id": 3304,
+    "title": "Find the K-th Character in String Game I",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/",
+    "tags": [
+        "math",
+        "bit-manipulation",
+        "recursion",
+        "simulation"
+    ]
+}
