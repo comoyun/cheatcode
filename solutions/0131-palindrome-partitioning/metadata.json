@@ -1,0 +1,11 @@
+{
+    "id": 131,
+    "title": "Palindrome Partitioning",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/palindrome-partitioning/",
+    "tags": [
+        "string",
+        "dynamic-programming",
+        "backtracking"
+    ]
+}

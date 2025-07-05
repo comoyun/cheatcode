@@ -1,0 +1,13 @@
+{
+    "id": 1394,
+    "title": "Find Lucky Integer in an Array",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/find-lucky-integer-in-an-array/",
+    "tags": [
+        "array",
+        "hash-table",
+        "counting",
+        "sorting",
+        "brute-force"
+    ]
+}
