@@ -1,0 +1,11 @@
+{
+    "id": 165,
+    "title": "Compare Version Numbers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/compare-version-numbers/",
+    "tags": [
+        "two-pointers",
+        "simulation",
+        "string"
+    ]
+}
