@@ -1,0 +1,10 @@
+{
+    "id": 138,
+    "title": "Copy List with Random Pointer",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "tags": [
+        "hash-table",
+        "linked-list"
+    ]
+}
