@@ -1,7 +1,7 @@
 /*
- * @title: Type
- * @time: O(n)
- * @space: O(1)
+ * @title: Simulation
+ * @time: O(n * k)
+ * @space: O(k)
  */
 
 /**
