@@ -9,19 +9,27 @@
  * @return {number}
  */
 const maxEvents = events => {
-    const n = events.length;
-    let maxDay = 0;
-    for (const e of events) maxDay = Math.max(maxDay, e[1]);
     events.sort((a, b) => a[0] - b[0]);
-    const heap = new Heap();
+
+    const heap = new MinHeap();
     let result = 0;
-    for (let i = 1, j = 0; i <= maxDay; i++) {
-        while (j < n && events[j][0] <= i) heap.enqueue(events[j++][1]);
-        while (!heap.isEmpty() && heap.front() < i) heap.dequeue();
-        if (!heap.isEmpty()) {
-            heap.dequeue();
+    let i = 0;
+
+    let day = Math.min(...events.map(([start]) => start));
+
+    while (i < events.length || heap.size()) {
+        while (i < events.length && events[i][0] === day)
+            heap.insert(events[i++][1]);
+
+        while (heap.size() && heap.peek() < day) heap.remove();
+
+        if (heap.size()) {
+            heap.remove();
             result++;
         }
+
+        day++;
     }
+
     return result;
 };
