@@ -1,0 +1,11 @@
+{
+    "id": 166,
+    "title": "Fraction to Recurring Decimal",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/fraction-to-recurring-decimal/",
+    "tags": [
+        "hash-table",
+        "math",
+        "string"
+    ]
+}
