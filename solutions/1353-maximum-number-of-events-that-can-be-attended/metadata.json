@@ -1,0 +1,12 @@
+{
+    "id": 1353,
+    "title": "Maximum Number of Events That Can Be Attended",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+    "tags": [
+        "array",
+        "greedy",
+        "sorting",
+        "heap-(priority-queue)"
+    ]
+}
