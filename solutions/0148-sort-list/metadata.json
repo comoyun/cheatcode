@@ -1,0 +1,13 @@
+{
+    "id": 148,
+    "title": "Sort List",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/sort-list/",
+    "tags": [
+        "linked-list",
+        "two-pointers",
+        "divide-and-conquer",
+        "sorting",
+        "merge-sort"
+    ]
+}
