@@ -1,0 +1,11 @@
+{
+    "id": 3440,
+    "title": "Reschedule Meetings for Maximum Free Time II",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/",
+    "tags": [
+        "array",
+        "greedy",
+        "enumeration"
+    ]
+}
