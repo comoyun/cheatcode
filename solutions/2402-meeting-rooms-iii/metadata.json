@@ -1,0 +1,13 @@
+{
+    "id": 2402,
+    "title": "Meeting Rooms III",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/meeting-rooms-iii/",
+    "tags": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-(priority-queue)",
+        "simulation"
+    ]
+}
