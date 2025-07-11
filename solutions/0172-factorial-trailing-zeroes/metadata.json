@@ -1,0 +1,9 @@
+{
+    "id": 172,
+    "title": "Factorial Trailing Zeroes",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/factorial-trailing-zeroes/",
+    "tags": [
+        "math"
+    ]
+}
