@@ -1,0 +1,10 @@
+{
+    "id": 1900,
+    "title": "The Earliest and Latest Rounds Where Players Compete",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/",
+    "tags": [
+        "dynamic-programming",
+        "memoization"
+    ]
+}
