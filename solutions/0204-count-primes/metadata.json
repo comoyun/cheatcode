@@ -1,0 +1,12 @@
+{
+    "id": 204,
+    "title": "Count Primes",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/count-primes/",
+    "tags": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+    ]
+}
