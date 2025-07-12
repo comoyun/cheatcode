@@ -1,0 +1,14 @@
+{
+    "id": 187,
+    "title": "Repeated DNA Sequences",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/repeated-dna-sequences/",
+    "tags": [
+        "hash-table",
+        "string",
+        "bit-manipulation",
+        "sliding-window",
+        "rolling-hash",
+        "hash-function"
+    ]
+}
