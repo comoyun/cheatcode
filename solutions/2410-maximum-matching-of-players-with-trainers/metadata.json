@@ -1,0 +1,12 @@
+{
+    "id": 2410,
+    "title": "Maximum Matching of Players With Trainers",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/maximum-matching-of-players-with-trainers/",
+    "tags": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+    ]
+}
