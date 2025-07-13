@@ -1,0 +1,12 @@
+{
+    "id": 210,
+    "title": "Course Schedule II",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/course-schedule-ii/",
+    "tags": [
+        "depth-first-search",
+        "breadth-first-search",
+        "graph",
+        "topological-sort"
+    ]
+}
