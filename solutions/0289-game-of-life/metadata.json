@@ -1,0 +1,11 @@
+{
+    "id": 289,
+    "title": "Game of Life",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/game-of-life/",
+    "tags": [
+        "array",
+        "matrix",
+        "simulation"
+    ]
+}
