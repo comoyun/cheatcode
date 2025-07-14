@@ -18,8 +18,7 @@ const getDecimalValue = head => {
     let result = 0;
     curr = head;
     while (curr) {
-        len--;
-        if (curr.val) result += Math.pow(2, len);
+        result += curr.val * Math.pow(2, --len);
         curr = curr.next;
     }
     return result;
