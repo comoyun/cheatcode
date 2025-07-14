@@ -1,0 +1,10 @@
+{
+    "id": 1290,
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+    "tags": [
+        "linked-list",
+        "math"
+    ]
+}
