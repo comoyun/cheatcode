@@ -1,0 +1,11 @@
+{
+    "id": 299,
+    "title": "Bulls and Cows",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/bulls-and-cows/",
+    "tags": [
+        "hash-table",
+        "string",
+        "counting"
+    ]
+}
