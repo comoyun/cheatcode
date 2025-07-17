@@ -1,7 +1,7 @@
 /*
  * @title: Dynamic Programming
- * @time: O(k * k + n * k)
- * @space: O(k * k)
+ * @time: O(n * n)
+ * @space: O(n * k)
  */
 
 /**
@@ -10,14 +10,20 @@
  * @return {number}
  */
 const maximumLength = (nums, k) => {
-    const dp = Array.from({ length: k }, () => new Array(k).fill(0));
-    let res = 0;
-    for (const num of nums) {
-        const mod = num % k;
-        for (let prev = 0; prev < k; prev++) {
-            dp[prev][mod] = dp[mod][prev] + 1;
-            res = Math.max(res, dp[prev][mod]);
+    const n = nums.length;
+    let result = 0;
+    const dp = Array.from({ length: n }, () => {
+        return {};
+    });
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < i; j++) {
+            const mod = (nums[i] + nums[j]) % k;
+            dp[j][mod] = dp[j][mod] || 1;
+            dp[i][mod] = Math.max(dp[i][mod] || 0, 1 + dp[j][mod]);
+            result = Math.max(result, dp[i][mod]);
         }
     }
-    return res;
+
+    return result;
 };
