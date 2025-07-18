@@ -1,0 +1,11 @@
+{
+    "id": 2163,
+    "title": "Minimum Difference in Sums After Removal of Elements",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/",
+    "tags": [
+        "array",
+        "dynamic-programming",
+        "heap-(priority-queue)"
+    ]
+}
