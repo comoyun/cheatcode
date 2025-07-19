@@ -1,0 +1,12 @@
+{
+    "id": 1233,
+    "title": "Remove Sub-Folders from the Filesystem",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
+    "tags": [
+        "array",
+        "string",
+        "depth-first-search",
+        "trie"
+    ]
+}
