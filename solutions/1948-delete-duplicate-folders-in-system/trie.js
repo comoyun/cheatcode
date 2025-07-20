@@ -40,7 +40,7 @@ class Trie {
             const signature = parts.sort().join('');
             if (signature) {
                 freq.set(signature, (freq.get(signature) || 0) + 1);
-                node.sig = signature; 
+                node.sig = signature;
             }
 
             return signature;
