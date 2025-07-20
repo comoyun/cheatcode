@@ -1,0 +1,13 @@
+{
+    "id": 1948,
+    "title": "Delete Duplicate Folders in System",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/delete-duplicate-folders-in-system/",
+    "tags": [
+        "array",
+        "hash-table",
+        "string",
+        "trie",
+        "hash-function"
+    ]
+}
