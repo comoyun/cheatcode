@@ -1,0 +1,14 @@
+{
+    "id": 268,
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/missing-number/",
+    "tags": [
+        "array",
+        "hash-table",
+        "math",
+        "binary-search",
+        "bit-manipulation",
+        "sorting"
+    ]
+}
