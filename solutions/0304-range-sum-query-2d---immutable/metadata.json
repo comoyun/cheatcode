@@ -1,0 +1,12 @@
+{
+    "id": 304,
+    "title": "Range Sum Query 2D - Immutable",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+    "tags": [
+        "array",
+        "design",
+        "matrix",
+        "prefix-sum"
+    ]
+}
