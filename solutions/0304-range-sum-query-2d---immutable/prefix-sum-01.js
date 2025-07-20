@@ -1,6 +1,6 @@
 /*
  * @title: Prefix Sum
- * @time: O(n)
+ * @time: O(row2 - row1 + 1)
  * @space: O(1)
  */
 
