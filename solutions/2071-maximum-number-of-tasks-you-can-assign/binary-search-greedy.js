@@ -1,6 +1,6 @@
 /*
  * @title: Binary Search + Greedy
- * @time: O(n^2)
+ * @time: O(log n * n^2)
  * @space: O(n)
  */
 
