@@ -1,0 +1,12 @@
+{
+    "id": 535,
+    "title": "Encode and Decode TinyURL",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+    "tags": [
+        "hash-table",
+        "string",
+        "design",
+        "hash-function"
+    ]
+}
