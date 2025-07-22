@@ -1,0 +1,11 @@
+{
+  "id": 1813,
+  "title": "Maximum Erasure Value",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-erasure-value/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window"
+  ]
+}
