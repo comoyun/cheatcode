@@ -1,0 +1,11 @@
+{
+  "id": 1818,
+  "title": "Maximum Score From Removing Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
+  "tags": [
+    "string",
+    "stack",
+    "greedy"
+  ]
+}
