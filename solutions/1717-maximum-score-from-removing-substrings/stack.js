@@ -1,6 +1,12 @@
 // time: O(n)
 // space: O(n)
 
+/**
+ * @param {string} s
+ * @param {number} x
+ * @param {number} y
+ * @return {number}
+ */
 const maximumGain = (s, x, y) => {
     const stack = [];
 
