@@ -1,0 +1,12 @@
+{
+  "id": 2400,
+  "title": "Minimum Score After Removals on a Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "tree",
+    "depth-first-search"
+  ]
+}
