@@ -1,0 +1,11 @@
+{
+    "id": 3487,
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/",
+    "tags": [
+        "array",
+        "greedy",
+        "hash-table"
+    ]
+}
