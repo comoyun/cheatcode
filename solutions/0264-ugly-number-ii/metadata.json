@@ -1,0 +1,12 @@
+{
+  "id": 264,
+  "title": "Ugly Number II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/ugly-number-ii/",
+  "tags": [
+    "hash-table",
+    "math",
+    "dynamic-programming",
+    "heap-priority-queue"
+  ]
+}
