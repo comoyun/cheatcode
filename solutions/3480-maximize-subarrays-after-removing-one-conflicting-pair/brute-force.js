@@ -1,4 +1,4 @@
-// time: O(n * n * k * k)
+// time: O(n^2 * k^2)
 // space: O(n)
 
 /**
@@ -7,6 +7,7 @@
  * @return {number}
  */
 const maxSubarrays = (n, conflicts) => {
+    /* WARNING: This solution gives TLE */
     const nums = Array.from({ length: n }, (_, index) => index + 1);
     let result = 0;
 
