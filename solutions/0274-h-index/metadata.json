@@ -1,0 +1,11 @@
+{
+  "id": 274,
+  "title": "H-Index",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/h-index/",
+  "tags": [
+    "array",
+    "sorting",
+    "counting-sort"
+  ]
+}
