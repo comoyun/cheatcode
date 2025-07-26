@@ -1,0 +1,11 @@
+{
+  "id": 342,
+  "title": "Power of Four",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/power-of-four/",
+  "tags": [
+    "math",
+    "bit-manipulation",
+    "recursion"
+  ]
+}
