@@ -9,19 +9,19 @@ const imageSmoother = img => {
     const ROWS = img.length;
     const COLS = img[0].length;
     const copy = Array.from({ length: ROWS }, (_, row) => [...img[row]]);
+    const dirs = [
+        [-1, -1],
+        [-1, 0],
+        [-1, 1],
+        [0, -1],
+        [0, 0],
+        [0, 1],
+        [1, -1],
+        [1, 0],
+        [1, 1],
+    ];
 
     const getAverage = (row, col) => {
-        const dirs = [
-            [-1, -1],
-            [-1, 0],
-            [-1, 1],
-            [0, -1],
-            [0, 0],
-            [0, 1],
-            [1, -1],
-            [1, 0],
-            [1, 1],
-        ];
         let sum = 0;
         let count = 0;
 
