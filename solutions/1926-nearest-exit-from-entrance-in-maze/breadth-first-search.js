@@ -1,8 +1,5 @@
-/*
- * @title: BFS
- * @time: O(mn)
- * @space: O(mn)
- */
+// time: O(mn)
+// space: O(mn)
 
 /**
  * @param {character[][]} maze

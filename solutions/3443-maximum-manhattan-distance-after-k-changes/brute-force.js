@@ -1,8 +1,5 @@
-/*
- * @title: Brute Force
- * @time: O(n)
- * @space: O(1)
- */
+// time: O(n)
+// space: O(1)
 
 /**
  * @param {string} s

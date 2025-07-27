@@ -1,8 +1,5 @@
-/*
- * @title: Hashmap
- * @time: O(nm)
- * @space: O(n + m)
- */
+// time: O(nm)
+// space: O(n + m)
 
 /**
  * @param {number[][]} matrix

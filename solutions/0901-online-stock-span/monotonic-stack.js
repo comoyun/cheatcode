@@ -1,8 +1,5 @@
-/*
- * @title: Monotonic Stack
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 class StockSpanner {
     constructor() {

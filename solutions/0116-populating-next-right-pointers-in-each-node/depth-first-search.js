@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(n)
- * @space: O(log n)
- */
+// time: O(n)
+// space: O(log n)
 
 /**
  * @param {_Node} root

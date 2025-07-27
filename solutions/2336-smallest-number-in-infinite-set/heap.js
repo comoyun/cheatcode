@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 class SmallestInfiniteSet {
     constructor() {

@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O(m log n)
- * @space: O(n + m)
- */
+// time: O(m log n)
+// space: O(n + m)
 
 /**
  * @param {number} n

@@ -1,8 +1,5 @@
-/*
- * @title: Trie
- * @time: O(n) for addWord, O(26^n) for search (with wildcards)
- * @space: O(n) 
- */
+// time: O(n) for addWord, O(26^n) for search (with wildcards)
+// space: O(n)
 
 class Node {
     constructor(char) {

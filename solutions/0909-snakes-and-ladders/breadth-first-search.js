@@ -1,8 +1,5 @@
-/*
- * @title: BFS
- * @time: O(n^2)
- * @space: O(n^2)
- */
+// time: O(n^2)
+// space: O(n^2)
 
 /**
  * @param {number[][]} board

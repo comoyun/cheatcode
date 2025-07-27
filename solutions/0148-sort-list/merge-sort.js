@@ -1,8 +1,5 @@
-/*
- * @title: Merge Sort
- * @time: O(n logn)
- * @space: O(log n)
- */
+// time: O(n logn)
+// space: O(log n)
 
 /**
  * @param {ListNode} head

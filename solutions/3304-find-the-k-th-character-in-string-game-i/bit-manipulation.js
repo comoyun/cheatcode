@@ -1,8 +1,5 @@
-/*
- * @title: Bit Manipulation
- * @time: O(log n)
- * @space: O(1)
- */
+// time: O(log n)
+// space: O(1)
 
 /**
  * @param {number} k

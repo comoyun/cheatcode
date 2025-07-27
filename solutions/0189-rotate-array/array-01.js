@@ -1,8 +1,5 @@
-/*
- * @title: Array
- * @time: O(n)
- * @space: O(k)
- */
+// time: O(n)
+// space: O(k)
 
 /**
  * @param {number[]} nums

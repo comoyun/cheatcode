@@ -1,8 +1,5 @@
-/*
- * @title: Index
- * @time: O((n + m) log (n + m))
- * @space: O(n + m)
- */
+// time: O((n + m) log (n + m))
+// space: O(n + m)
 
 /**
  * @param {Array} arr1

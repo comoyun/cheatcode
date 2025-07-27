@@ -1,8 +1,5 @@
-/*
- * @title: Hashmap
- * @time: O(n^2)
- * @space: O(n^2)
- */
+// time: O(n^2)
+// space: O(n^2)
 
 /**
  * @param {number[][]} grid

@@ -1,8 +1,5 @@
-/*
- * @title: Hack (Marker)
- * @time: O(nm)
- * @space: O(1)
- */
+// time: O(nm)
+// space: O(1)
 
 /**
  * @param {number[][]} matrix

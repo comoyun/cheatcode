@@ -1,8 +1,5 @@
-/*
- * @title: BFS
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {string} dominoes

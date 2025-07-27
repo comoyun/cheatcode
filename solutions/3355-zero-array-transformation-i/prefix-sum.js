@@ -1,8 +1,5 @@
-/*
- * @title: Prefix Sum
- * @time: O(n + q)
- * @space: O(n)
- */
+// time: O(n + q)
+// space: O(n)
 
 /**
  * @param {number[]} nums

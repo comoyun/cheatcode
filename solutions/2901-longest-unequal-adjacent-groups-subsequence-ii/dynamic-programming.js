@@ -1,8 +1,5 @@
-/*
- * @title: Dynamic-programming
- * @time: O(n^2 * k)
- * @space: O(n^2)
- */
+// time: O(n^2 * k)
+// space: O(n^2)
 
 /**
  * @param {string[]} words

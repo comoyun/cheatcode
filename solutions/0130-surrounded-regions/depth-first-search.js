@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(nm)
- * @space: O(nm)
- */
+// time: O(nm)
+// space: O(nm)
 
 /**
  * @param {character[][]} board

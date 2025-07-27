@@ -1,8 +1,5 @@
-/*
- * @title: Brute-force
- * @time: O(n log n + mn)
- * @space: O(n)
- */
+// time: O(n log n + mn)
+// space: O(n)
 
 /**
  * @param {string[]} products

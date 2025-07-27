@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O((n + q) log q)
- * @space: O(n + q)
- */
+// time: O((n + q) log q)
+// space: O(n + q)
 
 /**
  * @param {number[]} nums

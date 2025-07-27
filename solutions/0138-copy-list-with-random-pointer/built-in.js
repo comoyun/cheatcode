@@ -1,8 +1,5 @@
-/*
- * @title: Built-in
- * @time: O(?)
- * @space: O(?)
- */
+// time: O(?)
+// space: O(?)
 
 /**
  * @param {_Node} head

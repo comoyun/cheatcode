@@ -1,8 +1,5 @@
-/*
- * @title: Trie
- * @time: O(nL)
- * @space: O(nL)
- */
+// time: O(nL)
+// space: O(nL)
 
 class Node {
     constructor(char = '') {

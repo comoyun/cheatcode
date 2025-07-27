@@ -1,8 +1,5 @@
-/*
- * @title: Design
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 class EventEmitter {
     constructor() {

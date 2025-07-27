@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {number} n

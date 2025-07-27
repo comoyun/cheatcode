@@ -1,8 +1,5 @@
-/*
- * @title: BFS
- * @time: O(n + p)
- * @space: O(n + p)
- */
+// time: O(n + p)
+// space: O(n + p)
 
 /**
  * @param {number} numCourses

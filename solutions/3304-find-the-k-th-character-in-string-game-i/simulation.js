@@ -1,8 +1,5 @@
-/*
- * @title: Simulation
- * @time: Exponential
- * @space: Exponential
- */
+// time: Exponential
+// space: Exponential
 
 const word = ['a'];
 while (word.length < 500) {

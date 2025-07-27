@@ -1,8 +1,5 @@
-/*
- * @title: Bitwise
- * @time: O(n)
- * @space: O(1)
- */
+// time: O(n)
+// space: O(1)
 
 /**
  * @param {ListNode} head

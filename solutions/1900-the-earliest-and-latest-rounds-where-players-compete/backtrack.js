@@ -1,8 +1,5 @@
-/*
- * @title: Backtrack
- * @time: Exponential
- * @space: O(n)
- */
+// time: Exponential
+// space: O(n)
 
 /**
  * @param {number} n

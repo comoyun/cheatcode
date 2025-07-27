@@ -1,8 +1,5 @@
-/*
- * @title: Promise
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {Array<Function>} functions

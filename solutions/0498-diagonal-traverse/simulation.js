@@ -1,8 +1,5 @@
-/*
- * @title: Simulation
- * @time: O(nm)
- * @space: O(nm)
- */
+// time: O(nm)
+// space: O(nm)
 
 /**
  * @param {number[][]} mat

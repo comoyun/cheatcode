@@ -1,8 +1,5 @@
-/*
- * @title: Recursion
- * @time: O(log n)
- * @space: O(log n)
- */
+// time: O(log n)
+// space: O(log n)
 
 /**
  * @param {number} n

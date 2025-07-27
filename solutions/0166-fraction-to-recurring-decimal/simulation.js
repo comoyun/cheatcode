@@ -1,8 +1,5 @@
-/*
- * @title: Simulation
- * @time: O(n * k)
- * @space: O(k)
- */
+// time: O(n * k)
+// space: O(k)
 
 /**
  * @param {number} numerator

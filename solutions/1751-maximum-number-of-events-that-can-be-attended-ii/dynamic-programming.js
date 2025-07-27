@@ -1,8 +1,5 @@
-/*
- * @title: Type
- * @time: O(n∗k∗Log(n))
- * @space: O(n)
- */
+// time: O(n∗k∗Log(n))
+// space: O(n)
 
 /**
  * @param {number[][]} events

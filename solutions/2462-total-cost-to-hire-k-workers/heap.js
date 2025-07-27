@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O(n log n)
- * @space: O(n)
- */
+// time: O(n log n)
+// space: O(n)
 
 /**
  * @param {number[]} costs

@@ -1,8 +1,5 @@
-/*
- * @title: Brute Force
- * @time: Exponential
- * @space: Exponential
- */
+// time: Exponential
+// space: Exponential
 
 /**
  * @param {string} s

@@ -1,8 +1,5 @@
-/*
- * @title: Queue
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {string} senate

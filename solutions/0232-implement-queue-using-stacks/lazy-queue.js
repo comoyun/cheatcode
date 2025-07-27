@@ -1,8 +1,5 @@
-/*
- * @title: Lazy Queue
- * @time: O(1)
- * @space: O(n)
- */
+// time: O(1)
+// space: O(n)
 
 class MyQueue {
     constructor() {

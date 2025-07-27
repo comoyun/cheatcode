@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(nm)
- * @space: O(n)
- */
+// time: O(nm)
+// space: O(n)
 
 /**
  * @param {number[][]} edges1

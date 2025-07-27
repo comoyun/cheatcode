@@ -1,8 +1,5 @@
-/*
- * @title: Brute-force
- * @time: O(n^3)
- * @space: O(1)
- */
+// time: O(n^3)
+// space: O(1)
 
 /* WARNING: These solutions give TLE */
 

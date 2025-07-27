@@ -1,8 +1,5 @@
-/*
- * @title: Hash Table
- * @time: O(n * m^2)
- * @space: O(n * m)
- */
+// time: O(n * m^2)
+// space: O(n * m)
 
 /**
  * @param {string[]} folder

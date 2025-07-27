@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O((T+n)logn)
- * @space: O(n)
- */
+// time: O((T+n)logn)
+// space: O(n)
 
 /**
  * @param {number[][]} events

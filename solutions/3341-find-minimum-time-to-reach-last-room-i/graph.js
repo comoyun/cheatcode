@@ -1,8 +1,5 @@
-/*
- * @title: Graph
- * @time:  O(n²)
- * @space: O(n)
- */
+// time:  O(n²)
+// space: O(n)
 
 /**
  * @param {number[][]} moveTime

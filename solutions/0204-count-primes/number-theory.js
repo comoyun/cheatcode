@@ -1,8 +1,5 @@
-/*
- * @title: Number Theory
- * @time: O(n log log n)
- * @space: O(n)
- */
+// time: O(n log log n)
+// space: O(n)
 
 /**
  * @param {number} n

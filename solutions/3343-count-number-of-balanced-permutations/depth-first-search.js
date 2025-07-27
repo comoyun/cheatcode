@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(n^4)
- * @space: O(n^3)
- */
+// time: O(n^4)
+// space: O(n^3)
 
 const MOD = 1_000_000_007n;
 /**

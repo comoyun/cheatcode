@@ -1,8 +1,5 @@
-/*
- * @title: Sorting
- * @time: O(n log n)
- * @space: O(1)
- */
+// time: O(n log n)
+// space: O(1)
 
 /**
  * @param {number[]} arr

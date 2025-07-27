@@ -1,8 +1,5 @@
-/*
- * @title: Trie
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 class Trie {
     constructor() {

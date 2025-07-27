@@ -1,8 +1,5 @@
-/*
- * @title: Counting
- * @time: O(n)
- * @space: O(1)
- */
+// time: O(n)
+// space: O(1)
 
 /**
  * @param {number[]} arr

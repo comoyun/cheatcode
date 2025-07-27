@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(v + e)
- * @space: O(v + e)
- */
+// time: O(v + e)
+// space: O(v + e)
 
 /**
  * @param {number} numCourses

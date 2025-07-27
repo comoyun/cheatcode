@@ -1,8 +1,5 @@
-/*
- * @title: BFS
- * @time: O(n^2)
- * @space: O(n + m)
- */
+// time: O(n^2)
+// space: O(n + m)
 
 /**
  * @param {number[][]} edges1

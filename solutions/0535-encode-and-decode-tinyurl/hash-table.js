@@ -1,8 +1,5 @@
-/*
- * @title: Hash Table
- * @time: O(1)
- * @space: O(n)
- */
+// time: O(1)
+// space: O(n)
 
 const site = 'https://tiny.io/';
 const longToShortURL = {};

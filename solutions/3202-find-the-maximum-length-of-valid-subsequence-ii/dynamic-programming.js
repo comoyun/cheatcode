@@ -1,8 +1,5 @@
-/*
- * @title: Dynamic Programming
- * @time: O(n * n)
- * @space: O(n * k)
- */
+// time: O(n * n)
+// space: O(n * k)
 
 /**
  * @param {number[]} nums

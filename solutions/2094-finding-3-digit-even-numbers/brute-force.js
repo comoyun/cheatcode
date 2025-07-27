@@ -1,8 +1,5 @@
-/*
- * @title: Brute Force
- * @time: O(n^3)
- * @space: O(n)
- */
+// time: O(n^3)
+// space: O(n)
 
 /**
  * @param {number[]} digits

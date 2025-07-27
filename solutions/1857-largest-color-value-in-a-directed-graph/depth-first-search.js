@@ -1,8 +1,5 @@
-/*
- * @title: DFS
- * @time: O(n^2)
- * @space: O(n)
- */
+// time: O(n^2)
+// space: O(n)
 
 /**
  * @param {string} colors

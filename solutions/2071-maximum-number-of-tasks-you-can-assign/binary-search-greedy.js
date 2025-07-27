@@ -1,8 +1,5 @@
-/*
- * @title: Binary Search + Greedy
- * @time: O(log n * n^2)
- * @space: O(n)
- */
+// time: O(log n * n^2)
+// space: O(n)
 
 /**
  * @param {number[]} tasks

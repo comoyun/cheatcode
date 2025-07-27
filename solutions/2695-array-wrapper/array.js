@@ -1,8 +1,5 @@
-/*
- * @title: Array
- * @time: O(n)
- * @space: O(n)
- */
+// time: O(n)
+// space: O(n)
 
 class ArrayWrapper {
     /**

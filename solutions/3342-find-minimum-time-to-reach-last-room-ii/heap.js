@@ -1,8 +1,5 @@
-/*
- * @title: Heap
- * @time: O(mn log(mn))
- * @space: O(mn)
- */
+// time: O(mn log(mn))
+// space: O(mn)
 
 /**
  * @param {number[][]} moveTime

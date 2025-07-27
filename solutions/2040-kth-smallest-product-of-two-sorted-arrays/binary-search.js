@@ -1,8 +1,5 @@
-/*
- * @title: Binary Search
- * @time: O(log(range) len(nums1) log(len(nums2)))
- * @space: O(1)
- */
+// time: O(log(range) len(nums1) log(len(nums2)))
+// space: O(1)
 
 /**
  * @param {number[]} nums1
