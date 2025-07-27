@@ -31,15 +31,14 @@ solutions/
 }
 ```
 
-**Files and folders** are named using kebab-case (e.g., `brute-force.js`, `two-pointers.py`) and solution files start with a header comment like this:
+**Files and folders** are named using kebab-case (e.g., `brute-force.js`, `two-pointers.py`). Each solution file starts with a single-line comment declaring time and space complexity, like:
 
 ```js
-/*
- * @title Type of solution (e.g., Binary Search, Greedy + Sorting)
- * @time O(n)
- * @space O(n)
- */
+// time: O(n)
+// space: O(n)
 ```
+
+The comment style (`//`, `#`, etc.) is automatically chosen based on the language -- if you use `create-solution.js` utility function. No need for a title in the comment — the filename already makes the approach obvious.
 
 # Utilities
 
