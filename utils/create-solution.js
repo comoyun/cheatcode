@@ -2,79 +2,267 @@ import fs from 'fs';
 import path from 'path';
 import clipboardy from 'clipboardy';
 import { createInterface } from 'readline/promises';
-import { stdin as input, stdout as output } from 'node:process';
+import { stdin, stdout } from 'node:process';
+import fetch from 'node-fetch';
 
-const API_BASE_URL = 'https://leetcode-api-pied.vercel.app';
-const solutionsPath = './solutions';
+const CONFIG = {
+    SOLUTIONS_DIR: './solutions',
+    LANG_FILE: '.lang',
+    GRAPHQL_ENDPOINT: 'https://leetcode.com/graphql',
+    LANGUAGES: {
+        javascript: { ext: 'js', comment: '//' },
+        python: { ext: 'py', comment: '#' },
+        python3: { ext: 'py', comment: '#' },
+        cpp: { ext: 'cpp', comment: '//' },
+        c: { ext: 'c', comment: '//' },
+        java: { ext: 'java', comment: '//' },
+        ruby: { ext: 'rb', comment: '#' },
+    },
+};
 
-const ask = async q => {
-    const rl = createInterface({ input, output });
-    const answer = await rl.question(`${q} `);
+const ask = async question => {
+    const rl = createInterface({ input: stdin, output: stdout });
+    const answer = await rl.question(`${question} `);
     rl.close();
     return answer.trim();
 };
 
-const fetchProblemData = async id => {
-    const res = await fetch(`${API_BASE_URL}/problem/${id}`);
-    if (!res.ok) throw new Error(`API failed: ${res.status}`);
-    return res.json();
+const fileExists = filePath => fs.existsSync(filePath);
+const readFile = filePath => fs.readFileSync(filePath, 'utf-8').trim();
+const writeFile = (filePath, content) => fs.writeFileSync(filePath, content);
+const createDir = dirPath => fs.mkdirSync(dirPath, { recursive: true });
+
+const getLangPreference = async () => {
+    if (fileExists(CONFIG.LANG_FILE)) {
+        return readFile(CONFIG.LANG_FILE);
+    }
+
+    const langOptions = Object.keys(CONFIG.LANGUAGES).join(', ');
+    const lang = await ask(`Choose language (${langOptions}):`);
+    writeFile(CONFIG.LANG_FILE, lang);
+    return lang;
+};
+
+const fetchGraphQL = async (query, variables) => {
+    try {
+        const response = await fetch(CONFIG.GRAPHQL_ENDPOINT, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'User-Agent': 'Mozilla/5.0 (compatible; LeetCode-CLI/1.0)',
+            },
+            body: JSON.stringify({ query, variables }),
+        });
+
+        if (!response.ok) {
+            const errorBody = await response.text();
+            throw new Error(`GraphQL error (${response.status}): ${errorBody}`);
+        }
+
+        return response.json();
+    } catch (error) {
+        if (['ENOTFOUND', 'ECONNREFUSED'].includes(error.code)) {
+            throw new Error('Network Error');
+        }
+        throw error;
+    }
+};
+
+const findProblemByTitle = async titleSlug => {
+    const query = `
+        query questionData($titleSlug: String!) {
+            question(titleSlug: $titleSlug) {
+                questionId
+                questionFrontendId
+                title
+                titleSlug
+                difficulty
+                topicTags { slug }
+                content
+                exampleTestcases
+                codeSnippets { langSlug code }
+            }
+        }`;
+
+    const { data, errors } = await fetchGraphQL(query, { titleSlug });
+    if (errors) throw new Error(`GraphQL errors: ${JSON.stringify(errors)}`);
+    return data.question;
+};
+
+const findProblemById = async id => {
+    console.log(`🔍 Looking for problem ID ${id}...`);
+
+    const query = `
+        query problemsetQuestionList($limit: Int!, $skip: Int!, $filters: QuestionListFilterInput) {
+            problemsetQuestionList: questionList(
+                categorySlug: ""
+                limit: $limit
+                skip: $skip
+                filters: $filters
+            ) {
+                questions: data {
+                    frontendQuestionId: questionFrontendId
+                    titleSlug
+                    title
+                }
+            }
+        }`;
+
+    const { data, errors } = await fetchGraphQL(query, {
+        limit: 3000,
+        skip: 0,
+        filters: {},
+    });
+    if (errors) throw new Error(`GraphQL errors: ${JSON.stringify(errors)}`);
+
+    const problem = data.problemsetQuestionList.questions.find(
+        q => parseInt(q.frontendQuestionId, 10) === parseInt(id, 10)
+    );
+
+    if (!problem) {
+        const similarIds = data.problemsetQuestionList.questions
+            .map(q => parseInt(q.frontendQuestionId, 10))
+            .filter(problemId => Math.abs(problemId - parseInt(id, 10)) <= 10);
+
+        const suggestion =
+            similarIds.length > 0
+                ? `\n💡 Similar problem IDs found: ${similarIds.join(', ')}`
+                : '\n💡 Try searching by problem title slug instead';
+
+        throw new Error(`Problem ${id} not found.${suggestion}`);
+    }
+
+    console.log(`✅ Found: ${problem.title}`);
+    return findProblemByTitle(problem.titleSlug);
+};
+
+const getProblemData = async input => {
+    return isNaN(input) ? findProblemByTitle(input) : findProblemById(input);
+};
+
+const createSolutionFiles = (problem, langSlug, folderPath) => {
+    const langConfig = CONFIG.LANGUAGES[langSlug];
+    if (!langConfig) throw new Error(`Unsupported language: ${langSlug}`);
+
+    const { ext, comment } = langConfig;
+    const filePath = path.join(folderPath, `solution.${ext}`);
+
+    const metadata = {
+        id: +problem.questionId,
+        title: problem.title,
+        difficulty: problem.difficulty,
+        link: `https://leetcode.com/problems/${problem.titleSlug}/`,
+        tags: problem.topicTags.map(tag => tag.slug),
+    };
+    writeFile(
+        path.join(folderPath, 'metadata.json'),
+        JSON.stringify(metadata, null, 2)
+    );
+
+    const snippet =
+        problem.codeSnippets?.find(s => s.langSlug === langSlug)?.code || '';
+    const examples =
+        problem.exampleTestcases
+            ?.split('\n')
+            .map(line => `${comment} ${line}`)
+            .join('\n') || '';
+
+    const content = [
+        `${comment} time: O()`,
+        `${comment} space: O()\n`,
+        snippet,
+        examples && `\n${comment} Examples:\n${examples}`,
+    ]
+        .filter(Boolean)
+        .join('\n');
+
+    writeFile(filePath, content);
+};
+
+const searchProblems = async searchTerm => {
+    try {
+        console.log(`🔍 Searching for problems with "${searchTerm}"...`);
+
+        const query = `
+            query problemsetQuestionList($limit: Int!, $skip: Int!, $filters: QuestionListFilterInput) {
+                problemsetQuestionList: questionList(
+                    categorySlug: ""
+                    limit: $limit
+                    skip: $skip
+                    filters: $filters
+                ) {
+                    questions: data {
+                        frontendQuestionId: questionFrontendId
+                        titleSlug
+                        title
+                        difficulty
+                    }
+                }
+            }`;
+
+        const { data, errors } = await fetchGraphQL(query, {
+            limit: 2000,
+            skip: 0,
+            filters: {},
+        });
+        if (errors)
+            throw new Error(`GraphQL errors: ${JSON.stringify(errors)}`);
+
+        const matches = data.problemsetQuestionList.questions
+            .filter(q =>
+                q.title.toLowerCase().includes(searchTerm.toLowerCase())
+            )
+            .slice(0, 10);
+
+        if (matches.length === 0) {
+            console.log(`No problems found containing "${searchTerm}"`);
+            return;
+        }
+
+        console.log('\n📋 Found problems:');
+        matches.forEach(problem => {
+            console.log(
+                `${problem.frontendQuestionId.toString().padStart(4, ' ')}. ${problem.title} (${problem.difficulty})`
+            );
+        });
+        console.log('\n💡 Use the number on the left as your problem ID');
+    } catch (error) {
+        console.error(`❌ Search error: ${error.message}`);
+    }
 };
 
 const main = async () => {
     try {
-        const idRaw = await ask('Problem id:');
-        const id = Number(idRaw);
-        if (!Number.isInteger(id)) throw new Error('Invalid problem id');
+        const problemInput = await ask('Enter problem id or title slug:');
 
-        const {
-            title,
-            difficulty,
-            titleSlug,
-            topicTags = [],
-            url,
-        } = await fetchProblemData(id);
+        if (
+            problemInput.toLowerCase().includes('search') ||
+            problemInput === '?'
+        ) {
+            const searchTerm = await ask('Enter search term (title keywords):');
+            await searchProblems(searchTerm);
+            return;
+        }
 
-        const slug = title.toLowerCase().replace(/\s+/g, '-');
-        const folderName = `${String(id).padStart(4, '0')}-${slug}`;
-        const folderPath = path.resolve(solutionsPath, folderName);
+        const langSlug = await getLangPreference();
 
-        if (fs.existsSync(folderPath))
-            throw new Error(`"${folderName}" exists`);
+        console.log('🔍 Fetching problem data...');
+        const problem = await getProblemData(problemInput);
 
-        fs.mkdirSync(folderPath, { recursive: true });
+        const folderName = `${problem.questionFrontendId.toString().padStart(4, '0')}-${problem.titleSlug}`;
+        const folderPath = path.resolve(CONFIG.SOLUTIONS_DIR, folderName);
 
-        const tags = topicTags
-            .map(tag => (typeof tag === 'string' ? tag : tag.name))
-            .filter(Boolean)
-            .map(t => t.toLowerCase().replace(/\s+/g, '-'));
+        if (fileExists(folderPath)) {
+            throw new Error(`Solution folder already exists: ${folderName}`);
+        }
 
-        const metadata = {
-            id,
-            title,
-            difficulty,
-            link: url || `https://leetcode.com/problems/${titleSlug}/`,
-            tags,
-        };
+        createDir(folderPath);
+        createSolutionFiles(problem, langSlug, folderPath);
 
-        fs.writeFileSync(
-            path.join(folderPath, 'metadata.json'),
-            JSON.stringify(metadata, null, 4)
-        );
-
-        fs.writeFileSync(
-            path.join(folderPath, 'index.js'),
-            `/*
- * @title: Type
- * @time: O(n)
- * @space: O(1)
- */
-`);
-
-        console.log(`✅ Created ${folderPath}`);
         clipboardy.writeSync(folderPath);
-        console.log('📋 Path copied to clipboard!');
-    } catch (err) {
-        console.error(`❌ ${err.message}`);
+        console.log(`✅ Created: ${folderPath}\n📋 Path copied to clipboard!`);
+    } catch (error) {
+        console.error(`❌ Error: ${error.message}`);
         process.exit(1);
     }
 };
