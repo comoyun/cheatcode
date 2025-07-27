@@ -54,11 +54,3 @@ const imageSmoother = img => {
 
     return img;
 };
-
-console.log(
-    imageSmoother([
-        [1, 1, 1],
-        [1, 0, 1],
-        [1, 1, 1],
-    ])
-);
