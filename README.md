@@ -38,7 +38,7 @@ solutions/
 // space: O(n)
 ```
 
-The comment style (`//`, `#`, etc.) is automatically chosen based on the language -- if you use `create-solution.js` utility function. No need for a title in the comment — the filename already makes the approach obvious.
+The comment style (`//`, `#`, etc.) is automatically chosen based on the language -- if you use `create-solution.js` utility function. No need for a title in the comment as the **filename** already makes the approach obvious.
 
 # Utilities
 
