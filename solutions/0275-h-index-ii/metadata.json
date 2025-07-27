@@ -1,0 +1,10 @@
+{
+  "id": 275,
+  "title": "H-Index II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/h-index-ii/",
+  "tags": [
+    "array",
+    "binary-search"
+  ]
+}
