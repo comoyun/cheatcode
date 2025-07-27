@@ -1,0 +1,11 @@
+{
+  "id": 279,
+  "title": "Perfect Squares",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/perfect-squares/",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "breadth-first-search"
+  ]
+}
