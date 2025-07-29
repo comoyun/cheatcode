@@ -1,0 +1,12 @@
+{
+  "id": 2498,
+  "title": "Smallest Subarrays With Maximum Bitwise OR",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/",
+  "tags": [
+    "array",
+    "binary-search",
+    "bit-manipulation",
+    "sliding-window"
+  ]
+}
