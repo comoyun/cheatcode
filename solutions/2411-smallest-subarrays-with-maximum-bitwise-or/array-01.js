@@ -15,7 +15,7 @@ const smallestSubarrays = nums => {
 
     for (let i = n - 1; i >= 0; i--) {
         or |= nums[i];
-        count = 1;
+        count = 0;
 
         for (let j = 0; j < bits.length; j++)
             if ((nums[i] >> j) & 1) bits[j] = i;
