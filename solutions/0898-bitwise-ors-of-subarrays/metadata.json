@@ -1,0 +1,11 @@
+{
+  "id": 934,
+  "title": "Bitwise ORs of Subarrays",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bitwise-ors-of-subarrays/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "bit-manipulation"
+  ]
+}
