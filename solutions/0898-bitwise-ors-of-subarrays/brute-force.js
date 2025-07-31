@@ -6,6 +6,7 @@
  * @return {number}
  */
 const subarrayBitwiseORs = arr => {
+    /* WARNING: This solution gives TLE */
     const n = arr.length;
     const set = new Set();
 
