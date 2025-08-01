@@ -1,0 +1,10 @@
+{
+  "id": 118,
+  "title": "Pascal's Triangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/pascals-triangle/",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ]
+}
