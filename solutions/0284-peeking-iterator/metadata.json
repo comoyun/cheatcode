@@ -1,0 +1,11 @@
+{
+  "id": 284,
+  "title": "Peeking Iterator",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/peeking-iterator/",
+  "tags": [
+    "array",
+    "design",
+    "iterator"
+  ]
+}
