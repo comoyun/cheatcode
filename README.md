@@ -77,7 +77,7 @@ Want to contribute? Great. Please follow these rules:
 3. **Update or add `metadata.json`**. You can use utility functions to help with this.
 4. **Write clean, readable code.**
 
-Note that if you are not sure about time and space complexity of your solution, you can click on "Analyze Complexity" on LeetCode submissions tab:
+Note that if you are not sure about time and space complexity of your solution, you can take advantage of "Analyze Complexity" feature on LeetCode:
 
 ![image](https://github.com/user-attachments/assets/a74b3393-d414-4b04-8b94-0e313602769e)
 
