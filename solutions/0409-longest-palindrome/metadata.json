@@ -1,0 +1,11 @@
+{
+  "id": 409,
+  "title": "Longest Palindrome",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-palindrome/",
+  "tags": [
+    "hash-table",
+    "string",
+    "greedy"
+  ]
+}
