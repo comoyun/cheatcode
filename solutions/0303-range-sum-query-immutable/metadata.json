@@ -1,0 +1,11 @@
+{
+  "id": 303,
+  "title": "Range Sum Query - Immutable",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/range-sum-query-immutable/",
+  "tags": [
+    "array",
+    "design",
+    "prefix-sum"
+  ]
+}
