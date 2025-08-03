@@ -1,0 +1,12 @@
+{
+  "id": 2229,
+  "title": "Maximum Fruits Harvested After at Most K Steps",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/",
+  "tags": [
+    "array",
+    "binary-search",
+    "sliding-window",
+    "prefix-sum"
+  ]
+}
