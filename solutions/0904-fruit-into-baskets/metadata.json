@@ -1,0 +1,11 @@
+{
+  "id": 940,
+  "title": "Fruit Into Baskets",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/fruit-into-baskets/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window"
+  ]
+}
