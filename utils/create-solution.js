@@ -93,11 +93,9 @@ const findProblemById = async id => {
     console.log(`🔍 Looking for problem ID ${id}...`);
 
     const query = `
-        query problemsetQuestionList($limit: Int!, $skip: Int!, $filters: QuestionListFilterInput) {
+        query problemsetQuestionList($filters: QuestionListFilterInput) {
             problemsetQuestionList: questionList(
                 categorySlug: ""
-                limit: $limit
-                skip: $skip
                 filters: $filters
             ) {
                 questions: data {
@@ -109,27 +107,20 @@ const findProblemById = async id => {
         }`;
 
     const { data, errors } = await fetchGraphQL(query, {
-        limit: 3000,
-        skip: 0,
-        filters: {},
+        filters: {
+            searchKeywords: id.toString(),
+        },
     });
     if (errors) throw new Error(`GraphQL errors: ${JSON.stringify(errors)}`);
 
     const problem = data.problemsetQuestionList.questions.find(
-        q => parseInt(q.frontendQuestionId, 10) === parseInt(id, 10)
+        q => q.frontendQuestionId === id.toString()
     );
 
     if (!problem) {
-        const similarIds = data.problemsetQuestionList.questions
-            .map(q => parseInt(q.frontendQuestionId, 10))
-            .filter(problemId => Math.abs(problemId - parseInt(id, 10)) <= 10);
-
-        const suggestion =
-            similarIds.length > 0
-                ? `\n💡 Similar problem IDs found: ${similarIds.join(', ')}`
-                : '\n💡 Try searching by problem title slug instead';
-
-        throw new Error(`Problem ${id} not found.${suggestion}`);
+        throw new Error(
+            `Problem ${id} not found.\n💡 Try searching by problem title slug instead`
+        );
     }
 
     console.log(`✅ Found: ${problem.title}`);
