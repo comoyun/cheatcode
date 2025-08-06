@@ -1,0 +1,10 @@
+{
+  "id": 343,
+  "title": "Integer Break",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/integer-break/",
+  "tags": [
+    "math",
+    "dynamic-programming"
+  ]
+}
