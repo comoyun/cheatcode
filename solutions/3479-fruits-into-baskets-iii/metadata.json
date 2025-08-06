@@ -1,0 +1,12 @@
+{
+  "id": 3791,
+  "title": "Fruits Into Baskets III",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/fruits-into-baskets-iii/",
+  "tags": [
+    "array",
+    "binary-search",
+    "segment-tree",
+    "ordered-set"
+  ]
+}
