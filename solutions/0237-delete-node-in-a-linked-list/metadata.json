@@ -1,0 +1,9 @@
+{
+  "id": 237,
+  "title": "Delete Node in a Linked List",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+  "tags": [
+    "linked-list"
+  ]
+}
