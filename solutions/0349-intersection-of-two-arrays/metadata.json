@@ -1,0 +1,13 @@
+{
+  "id": 349,
+  "title": "Intersection of Two Arrays",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/intersection-of-two-arrays/",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "binary-search",
+    "sorting"
+  ]
+}
