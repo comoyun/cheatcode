@@ -1,4 +1,4 @@
-// time: O(1)
+// time: O(log n)
 // space: O(1)
 
 /**
