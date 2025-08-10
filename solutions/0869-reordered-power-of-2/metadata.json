@@ -1,0 +1,13 @@
+{
+  "id": 900,
+  "title": "Reordered Power of 2",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reordered-power-of-2/",
+  "tags": [
+    "hash-table",
+    "math",
+    "sorting",
+    "counting",
+    "enumeration"
+  ]
+}
