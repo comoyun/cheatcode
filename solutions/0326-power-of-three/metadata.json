@@ -1,0 +1,10 @@
+{
+  "id": 326,
+  "title": "Power of Three",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/power-of-three/",
+  "tags": [
+    "math",
+    "recursion"
+  ]
+}
