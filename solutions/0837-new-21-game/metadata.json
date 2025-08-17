@@ -1,0 +1,12 @@
+{
+  "id": 867,
+  "title": "New 21 Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/new-21-game/",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "sliding-window",
+    "probability-and-statistics"
+  ]
+}
