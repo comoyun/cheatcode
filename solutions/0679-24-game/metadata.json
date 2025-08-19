@@ -1,0 +1,11 @@
+{
+  "id": 679,
+  "title": "24 Game",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/24-game/",
+  "tags": [
+    "array",
+    "math",
+    "backtracking"
+  ]
+}
