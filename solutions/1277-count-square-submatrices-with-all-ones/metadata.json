@@ -1,0 +1,11 @@
+{
+  "id": 1402,
+  "title": "Count Square Submatrices with All Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ]
+}
