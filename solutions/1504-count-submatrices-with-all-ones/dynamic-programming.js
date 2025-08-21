@@ -18,6 +18,9 @@ const numSubmat = mat => {
             let minH = heights[c];
             for (let j = c; j >= 0 && heights[j]; j++) {
                 minH = Math.min(minH, heights[j]);
+
+                if (minH === 0) break
+
                 result += minH;
             }
         }
