@@ -1,0 +1,13 @@
+{
+  "id": 1628,
+  "title": "Count Submatrices With All Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-submatrices-with-all-ones/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "stack",
+    "matrix",
+    "monotonic-stack"
+  ]
+}
