@@ -6,19 +6,23 @@
  * @return {number}
  */
 const areaOfMaxDiagonal = dimensions => {
-    let result = 0;
-    let max = 0;
+    let bestArea = 0;
+    let maxDiagonal = 0;
 
-    for (const [height, width] of dimensions) {
-        const diagonal = Math.hypot(height, width);
-        const area = width * height;
+    for (const [h, w] of dimensions) {
+        // Get the diagonal length
+        const diagonal = Math.hypot(h, w);
+        // Compute rectangle area
+        const area = h * w;
 
-        if (diagonal === max) result = Math.max(result, area);
-        else if (diagonal > max) result = area;
-
-        max = Math.max(max, diagonal);
+        if (diagonal > maxDiagonal) {
+            maxDiagonal = diagonal; // We found a longer diagonal
+            bestArea = area; // So this is our new best area (note that it can be smaller than what it was before)
+        } else if (diagonal === maxDiagonal) {
+            // Same longest diagonal so we pick the bigger area.
+            bestArea = Math.max(bestArea, area);
+        }
     }
 
-    return result;
+    return bestArea;
 };
-
