@@ -1,0 +1,11 @@
+{
+  "id": 3748,
+  "title": "Sort Matrix by Diagonals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-matrix-by-diagonals/",
+  "tags": [
+    "array",
+    "sorting",
+    "matrix"
+  ]
+}
