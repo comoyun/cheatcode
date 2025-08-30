@@ -1,0 +1,11 @@
+{
+  "id": 36,
+  "title": "Valid Sudoku",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/valid-sudoku/",
+  "tags": [
+    "array",
+    "hash-table",
+    "matrix"
+  ]
+}
