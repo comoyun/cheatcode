@@ -1,0 +1,12 @@
+{
+  "id": 37,
+  "title": "Sudoku Solver",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sudoku-solver/",
+  "tags": [
+    "array",
+    "hash-table",
+    "backtracking",
+    "matrix"
+  ]
+}
