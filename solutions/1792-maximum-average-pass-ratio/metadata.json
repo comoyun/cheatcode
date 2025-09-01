@@ -1,0 +1,11 @@
+{
+  "id": 1917,
+  "title": "Maximum Average Pass Ratio",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-average-pass-ratio/",
+  "tags": [
+    "array",
+    "greedy",
+    "heap-priority-queue"
+  ]
+}
