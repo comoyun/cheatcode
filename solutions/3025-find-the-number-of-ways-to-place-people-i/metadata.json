@@ -1,0 +1,13 @@
+{
+  "id": 3278,
+  "title": "Find the Number of Ways to Place People I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/",
+  "tags": [
+    "array",
+    "math",
+    "geometry",
+    "sorting",
+    "enumeration"
+  ]
+}
