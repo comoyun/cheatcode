@@ -1,0 +1,10 @@
+{
+  "id": 697,
+  "title": "Degree of an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/degree-of-an-array/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
