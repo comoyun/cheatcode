@@ -1,0 +1,11 @@
+{
+  "id": 749,
+  "title": "Shortest Completing Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/shortest-completing-word/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
