@@ -1,0 +1,10 @@
+{
+  "id": 1426,
+  "title": "Find N Unique Integers Sum up to Zero",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/",
+  "tags": [
+    "array",
+    "math"
+  ]
+}
