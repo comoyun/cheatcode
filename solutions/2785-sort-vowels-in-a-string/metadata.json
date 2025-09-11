@@ -1,0 +1,10 @@
+{
+  "id": 2887,
+  "title": "Sort Vowels in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-vowels-in-a-string/",
+  "tags": [
+    "string",
+    "sorting"
+  ]
+}
