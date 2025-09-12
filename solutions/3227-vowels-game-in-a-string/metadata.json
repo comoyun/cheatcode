@@ -1,0 +1,12 @@
+{
+  "id": 3462,
+  "title": "Vowels Game in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/vowels-game-in-a-string/",
+  "tags": [
+    "math",
+    "string",
+    "brainteaser",
+    "game-theory"
+  ]
+}
