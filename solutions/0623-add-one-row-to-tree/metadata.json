@@ -1,0 +1,12 @@
+{
+  "id": 623,
+  "title": "Add One Row to Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/add-one-row-to-tree/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ]
+}
