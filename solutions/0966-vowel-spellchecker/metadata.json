@@ -1,0 +1,11 @@
+{
+  "id": 1006,
+  "title": "Vowel Spellchecker",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/vowel-spellchecker/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
