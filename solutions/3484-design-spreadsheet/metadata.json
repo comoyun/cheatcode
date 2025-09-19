@@ -1,0 +1,13 @@
+{
+  "id": 3797,
+  "title": "Design Spreadsheet",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-spreadsheet/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "design",
+    "matrix"
+  ]
+}
