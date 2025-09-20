@@ -1,0 +1,12 @@
+{
+  "id": 389,
+  "title": "Find the Difference",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-difference/",
+  "tags": [
+    "hash-table",
+    "string",
+    "bit-manipulation",
+    "sorting"
+  ]
+}
