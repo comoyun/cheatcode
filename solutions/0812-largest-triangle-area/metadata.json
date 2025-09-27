@@ -1,0 +1,11 @@
+{
+  "id": 830,
+  "title": "Largest Triangle Area",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-triangle-area/",
+  "tags": [
+    "array",
+    "math",
+    "geometry"
+  ]
+}
