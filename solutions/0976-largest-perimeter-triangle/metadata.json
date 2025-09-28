@@ -1,0 +1,12 @@
+{
+  "id": 1018,
+  "title": "Largest Perimeter Triangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-perimeter-triangle/",
+  "tags": [
+    "array",
+    "math",
+    "greedy",
+    "sorting"
+  ]
+}
