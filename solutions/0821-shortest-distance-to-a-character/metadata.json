@@ -1,0 +1,11 @@
+{
+  "id": 841,
+  "title": "Shortest Distance to a Character",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/shortest-distance-to-a-character/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "string"
+  ]
+}
