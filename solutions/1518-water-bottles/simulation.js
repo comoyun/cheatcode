@@ -11,7 +11,7 @@ const numWaterBottles = (numBottles, numExchange) => {
     let full = numBottles;
     let empty = 0;
 
-    while (full > 0) {
+    while (full) {
         result += full;
         empty += full;
         full = Math.floor(empty / numExchange); 
