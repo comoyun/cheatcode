@@ -1,0 +1,10 @@
+{
+  "id": 782,
+  "title": "Jewels and Stones",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/jewels-and-stones/",
+  "tags": [
+    "hash-table",
+    "string"
+  ]
+}
