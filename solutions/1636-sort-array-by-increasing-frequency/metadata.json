@@ -1,0 +1,11 @@
+{
+  "id": 1741,
+  "title": "Sort Array by Increasing Frequency",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-array-by-increasing-frequency/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ]
+}
