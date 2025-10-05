@@ -1,0 +1,10 @@
+{
+  "id": 2886,
+  "title": "Faulty Keyboard",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/faulty-keyboard/",
+  "tags": [
+    "string",
+    "simulation"
+  ]
+}
