@@ -1,0 +1,11 @@
+{
+  "id": 419,
+  "title": "Battleships in a Board",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/battleships-in-a-board/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "matrix"
+  ]
+}
