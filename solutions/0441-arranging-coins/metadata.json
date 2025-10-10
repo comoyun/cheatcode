@@ -1,0 +1,10 @@
+{
+  "id": 441,
+  "title": "Arranging Coins",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/arranging-coins/",
+  "tags": [
+    "math",
+    "binary-search"
+  ]
+}
