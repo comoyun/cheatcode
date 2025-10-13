@@ -1,0 +1,12 @@
+{
+  "id": 1353,
+  "title": "Find Resultant Array After Removing Anagrams",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting"
+  ]
+}
