@@ -1,0 +1,10 @@
+{
+  "id": 1274,
+  "title": "Number of Days Between Two Dates",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-days-between-two-dates/",
+  "tags": [
+    "math",
+    "string"
+  ]
+}
