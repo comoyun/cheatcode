@@ -1,0 +1,10 @@
+{
+  "id": 777,
+  "title": "Toeplitz Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/toeplitz-matrix/",
+  "tags": [
+    "array",
+    "matrix"
+  ]
+}
