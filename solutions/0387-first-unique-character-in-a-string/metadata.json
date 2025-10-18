@@ -1,0 +1,12 @@
+{
+  "id": 387,
+  "title": "First Unique Character in a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+  "tags": [
+    "hash-table",
+    "string",
+    "queue",
+    "counting"
+  ]
+}
