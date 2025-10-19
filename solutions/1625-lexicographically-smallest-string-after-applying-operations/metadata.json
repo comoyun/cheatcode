@@ -1,0 +1,12 @@
+{
+  "id": 1747,
+  "title": "Lexicographically Smallest String After Applying Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/",
+  "tags": [
+    "string",
+    "depth-first-search",
+    "breadth-first-search",
+    "enumeration"
+  ]
+}
