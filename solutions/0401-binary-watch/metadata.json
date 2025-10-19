@@ -1,0 +1,10 @@
+{
+  "id": 401,
+  "title": "Binary Watch",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/binary-watch/",
+  "tags": [
+    "backtracking",
+    "bit-manipulation"
+  ]
+}
