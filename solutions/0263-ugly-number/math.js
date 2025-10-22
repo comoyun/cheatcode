@@ -1,6 +1,7 @@
 // time: O(n)
 // space: O(1)
 
+
 /**
  * @param {number} n
  * @return {boolean}
@@ -11,4 +12,3 @@ const isUgly = n => {
     while (n % 5 === 0) n /= 5;
     return n === 1;
 };
-
