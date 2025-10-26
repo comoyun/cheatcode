@@ -1,0 +1,13 @@
+{
+  "id": 530,
+  "title": "Minimum Absolute Difference in BST",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-absolute-difference-in-bst/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-search-tree",
+    "binary-tree"
+  ]
+}
