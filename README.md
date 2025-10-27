@@ -6,7 +6,7 @@ This repository contains solutions to LeetCode problems I've solved as part of m
 
 # File Tree
 
-Each solution is stored in its own folder inside `/solutions/`. Each folder has different ways to solve the same problem, in multiple languages.
+Each solution is stored in its own folder inside `/solutions/`. Each folder contains multiple files, each representing a different way to solve the same problem in variety of languages.
 
 ```
 solutions/
@@ -19,7 +19,7 @@ solutions/
     └─ metadata.json
 ```
 
-`metadata.json` includes the problem ID, title, tags, difficulty, and a link to the LeetCode problem (used for analysis, generating reports, and supporting the web interface). Example:
+`metadata.json` includes the problem ID, title, tags, difficulty, and a link to the LeetCode problem (later used for analysis, parsing). Example:
 
 ```json
 {
@@ -43,12 +43,10 @@ The comment style (`//`, `#`, etc.) is automatically chosen based on the languag
 # Utilities
 
 I usually work in the terminal, so I made some CLI tools to make things easier.
-They're all in the `/utils/` folder and follow the Unix rule: small tools that do one thing well.
-You can run them from the project root using `npm run <script>`
+They're all in the `/utils/` folder.
+You can run them from the project root using `npm run <script>`. We have the following utility scripts:
 
-- `create-problem`: makes a new folder with starter files for a problem.
-- `parse-metadata`: collects info from all problems and puts it into one index.
-- `generate-table`: builds the solutions table and updates 'solutions.md'.
+- `create-problem`: makes a new folder in `/solutions/` with starter files
 
 # Commit Format
 
