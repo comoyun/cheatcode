@@ -1,0 +1,11 @@
+{
+  "id": 3616,
+  "title": "Make Array Elements Equal to Zero",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/make-array-elements-equal-to-zero/",
+  "tags": [
+    "array",
+    "simulation",
+    "prefix-sum"
+  ]
+}
