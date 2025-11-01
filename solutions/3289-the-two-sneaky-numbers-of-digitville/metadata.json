@@ -1,0 +1,11 @@
+{
+  "id": 3581,
+  "title": "The Two Sneaky Numbers of Digitville",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/",
+  "tags": [
+    "array",
+    "hash-table",
+    "math"
+  ]
+}
