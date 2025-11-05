@@ -1,0 +1,13 @@
+{
+  "id": 526,
+  "title": "Beautiful Arrangement",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/beautiful-arrangement/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "backtracking",
+    "bit-manipulation",
+    "bitmask"
+  ]
+}
