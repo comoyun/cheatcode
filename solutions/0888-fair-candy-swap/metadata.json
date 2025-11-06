@@ -1,0 +1,12 @@
+{
+  "id": 924,
+  "title": "Fair Candy Swap",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/fair-candy-swap/",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "sorting"
+  ]
+}
