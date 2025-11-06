@@ -1,0 +1,16 @@
+{
+  "id": 3863,
+  "title": "Power Grid Maintenance",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/power-grid-maintenance/",
+  "tags": [
+    "array",
+    "hash-table",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph",
+    "heap-priority-queue",
+    "ordered-set"
+  ]
+}
