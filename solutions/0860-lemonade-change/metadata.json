@@ -1,0 +1,10 @@
+{
+  "id": 890,
+  "title": "Lemonade Change",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/lemonade-change/",
+  "tags": [
+    "array",
+    "greedy"
+  ]
+}
