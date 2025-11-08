@@ -1,0 +1,12 @@
+{
+  "id": 1486,
+  "title": "Find the Distance Value Between Two Arrays",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "sorting"
+  ]
+}
