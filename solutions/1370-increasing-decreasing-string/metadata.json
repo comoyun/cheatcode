@@ -1,0 +1,11 @@
+{
+  "id": 1472,
+  "title": "Increasing Decreasing String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/increasing-decreasing-string/",
+  "tags": [
+    "hash-table",
+    "string",
+    "counting"
+  ]
+}
