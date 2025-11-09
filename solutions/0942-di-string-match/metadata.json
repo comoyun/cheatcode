@@ -1,0 +1,12 @@
+{
+  "id": 979,
+  "title": "DI String Match",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/di-string-match/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "string",
+    "greedy"
+  ]
+}
