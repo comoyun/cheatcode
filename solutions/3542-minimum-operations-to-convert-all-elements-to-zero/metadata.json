@@ -1,0 +1,13 @@
+{
+  "id": 3834,
+  "title": "Minimum Operations to Convert All Elements to Zero",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/",
+  "tags": [
+    "array",
+    "hash-table",
+    "stack",
+    "greedy",
+    "monotonic-stack"
+  ]
+}
