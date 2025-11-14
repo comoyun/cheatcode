@@ -1,0 +1,11 @@
+{
+  "id": 2625,
+  "title": "Increment Submatrices by One",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/increment-submatrices-by-one/",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ]
+}
