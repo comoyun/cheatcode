@@ -1,0 +1,11 @@
+{
+  "id": 3479,
+  "title": "Count the Number of Substrings With Dominant Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/",
+  "tags": [
+    "string",
+    "sliding-window",
+    "enumeration"
+  ]
+}
