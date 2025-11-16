@@ -1,0 +1,12 @@
+{
+  "id": 561,
+  "title": "Array Partition",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-partition/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "counting-sort"
+  ]
+}
