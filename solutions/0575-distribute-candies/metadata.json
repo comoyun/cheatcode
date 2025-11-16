@@ -1,0 +1,10 @@
+{
+  "id": 575,
+  "title": "Distribute Candies",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/distribute-candies/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
