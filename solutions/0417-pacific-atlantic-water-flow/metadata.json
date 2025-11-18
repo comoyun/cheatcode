@@ -1,0 +1,12 @@
+{
+  "id": 417,
+  "title": "Pacific Atlantic Water Flow",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "matrix"
+  ]
+}
