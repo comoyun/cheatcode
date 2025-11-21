@@ -1,0 +1,10 @@
+{
+  "id": 961,
+  "title": "Long Pressed Name",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/long-pressed-name/",
+  "tags": [
+    "two-pointers",
+    "string"
+  ]
+}
