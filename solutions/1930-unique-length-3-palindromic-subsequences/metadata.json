@@ -1,0 +1,12 @@
+{
+  "id": 2059,
+  "title": "Unique Length-3 Palindromic Subsequences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
+  "tags": [
+    "hash-table",
+    "string",
+    "bit-manipulation",
+    "prefix-sum"
+  ]
+}
