@@ -1,0 +1,12 @@
+{
+  "id": 1388,
+  "title": "Greatest Sum Divisible by Three",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/greatest-sum-divisible-by-three/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "greedy",
+    "sorting"
+  ]
+}
