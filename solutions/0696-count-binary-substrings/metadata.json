@@ -1,0 +1,10 @@
+{
+  "id": 696,
+  "title": "Count Binary Substrings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-binary-substrings/",
+  "tags": [
+    "two-pointers",
+    "string"
+  ]
+}
