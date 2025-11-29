@@ -1,0 +1,14 @@
+{
+  "id": 778,
+  "title": "Reorganize String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reorganize-string/",
+  "tags": [
+    "hash-table",
+    "string",
+    "greedy",
+    "sorting",
+    "heap-priority-queue",
+    "counting"
+  ]
+}
