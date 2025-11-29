@@ -1,0 +1,10 @@
+{
+  "id": 3846,
+  "title": "Minimum Operations to Make Array Sum Divisible by K",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/",
+  "tags": [
+    "array",
+    "math"
+  ]
+}
