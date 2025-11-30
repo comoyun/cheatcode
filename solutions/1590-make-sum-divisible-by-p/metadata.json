@@ -1,0 +1,11 @@
+{
+  "id": 1694,
+  "title": "Make Sum Divisible by P",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-sum-divisible-by-p/",
+  "tags": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+  ]
+}
