@@ -1,0 +1,11 @@
+{
+  "id": 990,
+  "title": "Verifying an Alien Dictionary",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
