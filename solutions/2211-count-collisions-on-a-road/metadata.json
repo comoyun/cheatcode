@@ -1,0 +1,11 @@
+{
+  "id": 2317,
+  "title": "Count Collisions on a Road",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-collisions-on-a-road/",
+  "tags": [
+    "string",
+    "stack",
+    "simulation"
+  ]
+}
