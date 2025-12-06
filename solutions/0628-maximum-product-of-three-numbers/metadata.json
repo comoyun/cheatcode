@@ -1,0 +1,11 @@
+{
+  "id": 628,
+  "title": "Maximum Product of Three Numbers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+  "tags": [
+    "array",
+    "math",
+    "sorting"
+  ]
+}
