@@ -1,0 +1,14 @@
+{
+  "id": 3835,
+  "title": "Count Partitions With Max-Min Difference at Most K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "queue",
+    "sliding-window",
+    "prefix-sum",
+    "monotonic-queue"
+  ]
+}
