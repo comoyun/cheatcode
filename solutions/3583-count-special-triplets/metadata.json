@@ -1,0 +1,11 @@
+{
+  "id": 3885,
+  "title": "Count Special Triplets",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-special-triplets/",
+  "tags": [
+    "array",
+    "hash-table",
+    "counting"
+  ]
+}
