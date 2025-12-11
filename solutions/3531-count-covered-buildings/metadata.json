@@ -1,0 +1,11 @@
+{
+  "id": 3819,
+  "title": "Count Covered Buildings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-covered-buildings/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ]
+}
