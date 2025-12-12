@@ -1,0 +1,11 @@
+{
+  "id": 822,
+  "title": "Unique Morse Code Words",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/unique-morse-code-words/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
