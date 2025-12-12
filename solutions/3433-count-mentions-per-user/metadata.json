@@ -1,0 +1,12 @@
+{
+  "id": 3721,
+  "title": "Count Mentions Per User",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-mentions-per-user/",
+  "tags": [
+    "array",
+    "math",
+    "sorting",
+    "simulation"
+  ]
+}
