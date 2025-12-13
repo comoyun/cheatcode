@@ -1,0 +1,12 @@
+{
+  "id": 3934,
+  "title": "Coupon Code Validator",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/coupon-code-validator/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting"
+  ]
+}
