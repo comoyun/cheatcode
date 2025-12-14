@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(N * M)
+// space: O(1)
 
 /**
  * @param {character[][]} board
