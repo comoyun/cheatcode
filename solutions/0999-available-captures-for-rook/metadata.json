@@ -1,0 +1,11 @@
+{
+  "id": 1041,
+  "title": "Available Captures for Rook",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/available-captures-for-rook/",
+  "tags": [
+    "array",
+    "matrix",
+    "simulation"
+  ]
+}
