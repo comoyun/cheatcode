@@ -1,0 +1,10 @@
+{
+  "id": 1001,
+  "title": "N-Repeated Element in Size 2N Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/n-repeated-element-in-size-2n-array/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
