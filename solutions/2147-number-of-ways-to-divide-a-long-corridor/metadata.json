@@ -1,0 +1,11 @@
+{
+  "id": 2251,
+  "title": "Number of Ways to Divide a Long Corridor",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/",
+  "tags": [
+    "math",
+    "string",
+    "dynamic-programming"
+  ]
+}
