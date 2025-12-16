@@ -1,0 +1,11 @@
+{
+  "id": 1044,
+  "title": "Find Common Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-common-characters/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
