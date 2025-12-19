@@ -1,0 +1,10 @@
+{
+  "id": 1619,
+  "title": "Path Crossing",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/path-crossing/",
+  "tags": [
+    "hash-table",
+    "string"
+  ]
+}
