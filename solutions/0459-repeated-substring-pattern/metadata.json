@@ -1,0 +1,10 @@
+{
+  "id": 459,
+  "title": "Repeated Substring Pattern",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/repeated-substring-pattern/",
+  "tags": [
+    "string",
+    "string-matching"
+  ]
+}
