@@ -1,0 +1,10 @@
+{
+  "id": 981,
+  "title": "Delete Columns to Make Sorted",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/delete-columns-to-make-sorted/",
+  "tags": [
+    "array",
+    "string"
+  ]
+}
