@@ -1,0 +1,12 @@
+{
+  "id": 1035,
+  "title": "Cousins in Binary Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/cousins-in-binary-tree/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ]
+}
