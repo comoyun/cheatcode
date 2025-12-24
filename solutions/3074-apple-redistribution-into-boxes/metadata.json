@@ -1,0 +1,11 @@
+{
+  "id": 3334,
+  "title": "Apple Redistribution into Boxes",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/apple-redistribution-into-boxes/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
