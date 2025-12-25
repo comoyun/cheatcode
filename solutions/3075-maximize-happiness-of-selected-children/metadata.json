@@ -1,0 +1,11 @@
+{
+  "id": 3351,
+  "title": "Maximize Happiness of Selected Children",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-happiness-of-selected-children/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
