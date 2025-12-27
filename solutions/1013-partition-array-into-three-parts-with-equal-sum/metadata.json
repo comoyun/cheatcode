@@ -1,0 +1,10 @@
+{
+  "id": 1062,
+  "title": "Partition Array Into Three Parts With Equal Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/",
+  "tags": [
+    "array",
+    "greedy"
+  ]
+}
