@@ -1,0 +1,11 @@
+{
+  "id": 1476,
+  "title": "Count Negative Numbers in a Sorted Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
+  "tags": [
+    "array",
+    "binary-search",
+    "matrix"
+  ]
+}
