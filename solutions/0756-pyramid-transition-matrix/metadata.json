@@ -1,0 +1,12 @@
+{
+  "id": 757,
+  "title": "Pyramid Transition Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/pyramid-transition-matrix/",
+  "tags": [
+    "hash-table",
+    "string",
+    "backtracking",
+    "bit-manipulation"
+  ]
+}
