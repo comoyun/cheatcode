@@ -1,0 +1,12 @@
+{
+  "id": 870,
+  "title": "Magic Squares In Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/magic-squares-in-grid/",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "matrix"
+  ]
+}
