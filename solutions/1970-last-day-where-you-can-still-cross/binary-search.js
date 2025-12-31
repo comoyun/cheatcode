@@ -24,7 +24,8 @@ const latestDayToCross = (rows, cols, cells) => {
         const dfs = (row, col) => {
             const key = `${row},${col}`;
 
-            if (row < 1 || col < 1 || col > cols || row > rows) return false;
+            if (row < 1) return false;
+            if (col < 1 || col > cols) return false;
             if (dangerZones.has(key)) return false;
             if (visited.has(key)) return false;
             if (row === rows) return true;
@@ -39,9 +40,8 @@ const latestDayToCross = (rows, cols, cells) => {
             );
         };
 
-        for (let i = 1; i <= cols; i++) {
+        for (let i = 1; i <= cols; i++) 
             if (dfs(1, i)) return true;
-        }
 
         return false;
     };
