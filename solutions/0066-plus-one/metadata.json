@@ -1,0 +1,10 @@
+{
+  "id": 66,
+  "title": "Plus One",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/plus-one/",
+  "tags": [
+    "array",
+    "math"
+  ]
+}
