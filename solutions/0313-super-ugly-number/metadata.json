@@ -1,0 +1,11 @@
+{
+  "id": 313,
+  "title": "Super Ugly Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/super-ugly-number/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming"
+  ]
+}
