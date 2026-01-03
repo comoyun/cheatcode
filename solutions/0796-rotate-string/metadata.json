@@ -1,0 +1,10 @@
+{
+  "id": 812,
+  "title": "Rotate String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/rotate-string/",
+  "tags": [
+    "string",
+    "string-matching"
+  ]
+}
