@@ -8,9 +8,7 @@ This repository contains solutions to LeetCode problems I've solved as part of m
 
 I usually work in the terminal, so I made some CLI tools to make things easier.
 They're all in the `/utils/` folder.
-You can run them from the project root using `npm run <script>`. We have the following utility scripts:
-
-- `create-problem`: makes a new folder in `/solutions/` with starter files
+You can run them from the project root using `npm run <script>`. 
 
 # Contributing
 
