@@ -1,32 +1,26 @@
-// time: O(n)
-// space: O(n)
+// time: O(N)
+// space: O(N)
 
 /**
  * @param {TreeNode} root
  * @return {number}
  */
 const maxLevelSum = root => {
-    let result = 0,
-        max = -Infinity,
-        level = 0;
-    const levels = {};
-    const dfs = node => {
+    const levels = [];
+
+    const dfs = (node, level = 0) => {
         if (!node) return;
-        level++;
 
-        levels[level] = (levels[level] || 0) + node.val;
+        levels[level] ??= 0;
+        levels[level] += node.val;
 
-        dfs(node.left);
-        dfs(node.right);
-        level--;
+        dfs(node.left, level + 1);
+        dfs(node.right, level + 1);
     };
 
     dfs(root);
-    for (const level in levels) {
-        if (levels[level] > max) {
-            max = levels[level];
-            result = +level;
-        }
-    }
-    return result;
+
+    const max = Math.max(...levels);
+    for (let i = 0; i < levels.length; i++) 
+        if (levels[i] === max) return i + 1;
 };
