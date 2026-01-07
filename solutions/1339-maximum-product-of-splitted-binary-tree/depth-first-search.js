@@ -14,7 +14,7 @@ const maxProduct = root => {
         return node.val + getSum(node.right) + getSum(node.left);
     };
 
-    let sum = getSum(root);
+    const sum = getSum(root);
 
     const dfs = node => {
         if (!node) return 0;
