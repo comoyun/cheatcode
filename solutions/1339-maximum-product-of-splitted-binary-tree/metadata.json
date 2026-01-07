@@ -1,0 +1,11 @@
+{
+  "id": 1465,
+  "title": "Maximum Product of Splitted Binary Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ]
+}
