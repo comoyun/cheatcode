@@ -15,7 +15,7 @@ const subtreeWithAllDeepest = root => {
     let result = null;
 
     const dfs = (node, depth = 1) => {
-        if (!node) return null;
+        if (!node) return false;
         if (depth === maxDepth) {
             result = node;
             return true;
