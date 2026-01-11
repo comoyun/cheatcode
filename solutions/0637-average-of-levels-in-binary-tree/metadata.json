@@ -1,0 +1,12 @@
+{
+  "id": 637,
+  "title": "Average of Levels in Binary Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ]
+}
