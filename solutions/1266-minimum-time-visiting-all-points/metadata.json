@@ -1,0 +1,11 @@
+{
+  "id": 1395,
+  "title": "Minimum Time Visiting All Points",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-time-visiting-all-points/",
+  "tags": [
+    "array",
+    "math",
+    "geometry"
+  ]
+}
