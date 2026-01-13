@@ -1,4 +1,4 @@
-// time: O(n * n)
+// time: O(N * N)
 // space: O(1)
 
 /**
@@ -6,7 +6,7 @@
  * @return {number}
  */
 const numberOfSubstrings = s => {
-    // this solution gives tle
+    // WARNING: this solution gives tle
     const n = s.length;
     let result = 0;
 
