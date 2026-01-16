@@ -1,0 +1,11 @@
+{
+  "id": 3250,
+  "title": "Maximum Square Area by Removing Fences From a Field",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/",
+  "tags": [
+    "array",
+    "hash-table",
+    "enumeration"
+  ]
+}
