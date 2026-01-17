@@ -1,0 +1,11 @@
+{
+  "id": 3325,
+  "title": "Find the Largest Area of Square Inside Two Rectangles",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/",
+  "tags": [
+    "array",
+    "math",
+    "geometry"
+  ]
+}
