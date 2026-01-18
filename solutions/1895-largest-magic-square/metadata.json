@@ -1,0 +1,11 @@
+{
+  "id": 1311,
+  "title": "Largest Magic Square",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-magic-square/",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ]
+}
