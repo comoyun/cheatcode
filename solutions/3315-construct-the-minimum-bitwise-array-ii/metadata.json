@@ -1,0 +1,10 @@
+{
+  "id": 3611,
+  "title": "Construct the Minimum Bitwise Array II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/",
+  "tags": [
+    "array",
+    "bit-manipulation"
+  ]
+}
