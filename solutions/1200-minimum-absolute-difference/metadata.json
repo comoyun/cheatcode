@@ -1,0 +1,10 @@
+{
+  "id": 1306,
+  "title": "Minimum Absolute Difference",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-absolute-difference/",
+  "tags": [
+    "array",
+    "sorting"
+  ]
+}
