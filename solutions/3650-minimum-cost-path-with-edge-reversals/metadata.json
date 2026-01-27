@@ -1,0 +1,11 @@
+{
+  "id": 3887,
+  "title": "Minimum Cost Path with Edge Reversals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/",
+  "tags": [
+    "graph",
+    "heap-priority-queue",
+    "shortest-path"
+  ]
+}
