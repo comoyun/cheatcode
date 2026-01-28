@@ -1,0 +1,11 @@
+{
+  "id": 3889,
+  "title": "Minimum Cost Path with Teleportations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-path-with-teleportations/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ]
+}
