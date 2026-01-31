@@ -1,0 +1,10 @@
+{
+  "id": 745,
+  "title": "Find Smallest Letter Greater Than Target",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+  "tags": [
+    "array",
+    "binary-search"
+  ]
+}
