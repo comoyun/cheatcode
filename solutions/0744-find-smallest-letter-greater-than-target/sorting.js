@@ -1,5 +1,5 @@
-// time: O(N)
-// space: O(N)
+// time: O(N log N)
+// space: O(log N)
 
 /**
  * @param {character[]} letters
