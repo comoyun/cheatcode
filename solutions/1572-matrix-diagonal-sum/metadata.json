@@ -1,0 +1,10 @@
+{
+  "id": 1677,
+  "title": "Matrix Diagonal Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/matrix-diagonal-sum/",
+  "tags": [
+    "array",
+    "matrix"
+  ]
+}
