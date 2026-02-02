@@ -1,0 +1,12 @@
+{
+  "id": 3260,
+  "title": "Divide an Array Into Subarrays With Minimum Cost II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window",
+    "heap-priority-queue"
+  ]
+}
