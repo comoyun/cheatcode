@@ -1,0 +1,11 @@
+{
+  "id": 3958,
+  "title": "Minimum Removals to Balance Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-removals-to-balance-array/",
+  "tags": [
+    "array",
+    "sliding-window",
+    "sorting"
+  ]
+}
