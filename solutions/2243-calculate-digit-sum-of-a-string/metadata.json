@@ -1,0 +1,10 @@
+{
+  "id": 2361,
+  "title": "Calculate Digit Sum of a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+  "tags": [
+    "string",
+    "simulation"
+  ]
+}
