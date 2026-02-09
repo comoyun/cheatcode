@@ -1,0 +1,14 @@
+{
+  "id": 1285,
+  "title": "Balance a Binary Search Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/balance-a-binary-search-tree/",
+  "tags": [
+    "divide-and-conquer",
+    "greedy",
+    "tree",
+    "depth-first-search",
+    "binary-search-tree",
+    "binary-tree"
+  ]
+}
