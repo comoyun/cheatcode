@@ -1,0 +1,13 @@
+{
+  "id": 4045,
+  "title": "Longest Balanced Subarray I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-balanced-subarray-i/",
+  "tags": [
+    "array",
+    "hash-table",
+    "divide-and-conquer",
+    "segment-tree",
+    "prefix-sum"
+  ]
+}
