@@ -1,0 +1,12 @@
+{
+  "id": 4055,
+  "title": "Longest Balanced Substring I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-balanced-substring-i/",
+  "tags": [
+    "hash-table",
+    "string",
+    "counting",
+    "enumeration"
+  ]
+}
