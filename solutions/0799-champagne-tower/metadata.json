@@ -1,0 +1,9 @@
+{
+  "id": 815,
+  "title": "Champagne Tower",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/champagne-tower/",
+  "tags": [
+    "dynamic-programming"
+  ]
+}
