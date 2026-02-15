@@ -1,0 +1,12 @@
+{
+  "id": 67,
+  "title": "Add Binary",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-binary/",
+  "tags": [
+    "math",
+    "string",
+    "bit-manipulation",
+    "simulation"
+  ]
+}
