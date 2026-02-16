@@ -1,0 +1,15 @@
+// time: O(1)
+// space: O(1)
+
+/**
+ * @param {number} n
+ * @return {number}
+ */
+const reverseBits = n => {
+    let res = 0;
+    for (let i = 0; i < 32; i++) {
+        res = (res << 1) | (n & 1);
+        n >>>= 1;
+    }
+    return res >>> 0;
+};
