@@ -1,0 +1,10 @@
+{
+  "id": 190,
+  "title": "Reverse Bits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-bits/",
+  "tags": [
+    "divide-and-conquer",
+    "bit-manipulation"
+  ]
+}
