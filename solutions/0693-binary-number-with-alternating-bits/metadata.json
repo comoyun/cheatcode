@@ -1,0 +1,9 @@
+{
+  "id": 693,
+  "title": "Binary Number with Alternating Bits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/binary-number-with-alternating-bits/",
+  "tags": [
+    "bit-manipulation"
+  ]
+}
