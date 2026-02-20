@@ -1,0 +1,11 @@
+{
+  "id": 763,
+  "title": "Special Binary String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/special-binary-string/",
+  "tags": [
+    "string",
+    "divide-and-conquer",
+    "sorting"
+  ]
+}
