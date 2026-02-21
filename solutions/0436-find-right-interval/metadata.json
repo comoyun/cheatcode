@@ -1,0 +1,11 @@
+{
+  "id": 436,
+  "title": "Find Right Interval",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-right-interval/",
+  "tags": [
+    "array",
+    "binary-search",
+    "sorting"
+  ]
+}
