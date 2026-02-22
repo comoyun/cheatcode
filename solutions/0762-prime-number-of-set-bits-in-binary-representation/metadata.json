@@ -1,0 +1,10 @@
+{
+  "id": 767,
+  "title": "Prime Number of Set Bits in Binary Representation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/",
+  "tags": [
+    "math",
+    "bit-manipulation"
+  ]
+}
