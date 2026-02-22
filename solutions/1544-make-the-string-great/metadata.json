@@ -1,0 +1,10 @@
+{
+  "id": 1666,
+  "title": "Make The String Great",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/make-the-string-great/",
+  "tags": [
+    "string",
+    "stack"
+  ]
+}
