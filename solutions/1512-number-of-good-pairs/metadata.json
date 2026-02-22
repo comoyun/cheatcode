@@ -1,0 +1,12 @@
+{
+  "id": 1635,
+  "title": "Number of Good Pairs",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-good-pairs/",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "counting"
+  ]
+}
