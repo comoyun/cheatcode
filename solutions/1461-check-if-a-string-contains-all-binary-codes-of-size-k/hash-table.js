@@ -20,13 +20,5 @@ const hasAllCodes = (s, k) => {
     nums.sort((a, b) => a - b);
 
     if (nums.length < 2 ** k) return false;
-
-    for (let i = 1; i < nums.length; i++) {
-        const prev = nums[i - 1];
-        const curr = nums[i];
-
-        if (curr - prev >= 2) return false;
-    }
-
     return true;
 };
