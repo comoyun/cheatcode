@@ -1,0 +1,12 @@
+{
+  "id": 652,
+  "title": "Find Duplicate Subtrees",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-duplicate-subtrees/",
+  "tags": [
+    "hash-table",
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ]
+}
