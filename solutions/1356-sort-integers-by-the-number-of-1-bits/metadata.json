@@ -1,0 +1,12 @@
+{
+  "id": 1458,
+  "title": "Sort Integers by The Number of 1 Bits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "sorting",
+    "counting"
+  ]
+}
