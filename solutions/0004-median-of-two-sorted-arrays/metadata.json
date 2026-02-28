@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "title": "Median of Two Sorted Arrays",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+  "tags": [
+    "array",
+    "binary-search",
+    "divide-and-conquer"
+  ]
+}
