@@ -1,0 +1,12 @@
+{
+  "id": 316,
+  "title": "Remove Duplicate Letters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-duplicate-letters/",
+  "tags": [
+    "string",
+    "stack",
+    "greedy",
+    "monotonic-stack"
+  ]
+}
