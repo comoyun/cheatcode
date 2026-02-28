@@ -15,7 +15,7 @@ const numSpecial = mat => {
 
     for (let row = 0; row < n; row++) {
         for (let col = 0; col < m; col++) {
-            if (mat[row][col]) {
+            if (mat[row][col] === 1) {
                 rows[row]++;
                 cols[col]++;
             }
@@ -24,8 +24,9 @@ const numSpecial = mat => {
 
     for (let row = 0; row < n; row++)
         for (let col = 0; col < m; col++)
-            if (rows[row] - cols[col] === 0 && mat[row][col]) 
-                result++;
+            if (mat[row][col] === 1 && 
+                rows[row] === 1 && 
+                cols[col] === 1) result++;
 
     return result;
 };
