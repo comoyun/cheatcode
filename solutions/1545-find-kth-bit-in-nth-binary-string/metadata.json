@@ -1,0 +1,11 @@
+{
+  "id": 1667,
+  "title": "Find Kth Bit in Nth Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/",
+  "tags": [
+    "string",
+    "recursion",
+    "simulation"
+  ]
+}
