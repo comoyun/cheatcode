@@ -1,0 +1,12 @@
+{
+  "id": 2107,
+  "title": "Find Unique Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-unique-binary-string/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "backtracking"
+  ]
+}
