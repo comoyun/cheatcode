@@ -1,0 +1,9 @@
+{
+  "id": 1054,
+  "title": "Complement of Base 10 Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/complement-of-base-10-integer/",
+  "tags": [
+    "bit-manipulation"
+  ]
+}
