@@ -1,0 +1,12 @@
+{
+  "id": 1845,
+  "title": "Largest Submatrix With Rearrangements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "matrix"
+  ]
+}
