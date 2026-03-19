@@ -1,0 +1,11 @@
+{
+  "id": 3492,
+  "title": "Count Submatrices With Equal Frequency of X and Y",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ]
+}
