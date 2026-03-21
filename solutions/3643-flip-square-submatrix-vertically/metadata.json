@@ -1,0 +1,11 @@
+{
+  "id": 3973,
+  "title": "Flip Square Submatrix Vertically",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/flip-square-submatrix-vertically/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "matrix"
+  ]
+}
