@@ -1,0 +1,10 @@
+{
+  "id": 2015,
+  "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
+  "tags": [
+    "array",
+    "matrix"
+  ]
+}
