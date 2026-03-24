@@ -1,0 +1,11 @@
+{
+  "id": 3031,
+  "title": "Construct Product Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-product-matrix/",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ]
+}
