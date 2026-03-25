@@ -1,0 +1,12 @@
+{
+  "id": 3849,
+  "title": "Equal Sum Grid Partition I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/equal-sum-grid-partition-i/",
+  "tags": [
+    "array",
+    "matrix",
+    "enumeration",
+    "prefix-sum"
+  ]
+}
