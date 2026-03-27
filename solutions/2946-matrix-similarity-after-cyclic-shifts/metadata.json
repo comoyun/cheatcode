@@ -1,0 +1,12 @@
+{
+  "id": 3215,
+  "title": "Matrix Similarity After Cyclic Shifts",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/",
+  "tags": [
+    "array",
+    "math",
+    "matrix",
+    "simulation"
+  ]
+}
