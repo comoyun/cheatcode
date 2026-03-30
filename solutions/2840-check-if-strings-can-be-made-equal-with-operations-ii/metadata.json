@@ -1,0 +1,11 @@
+{
+  "id": 2978,
+  "title": "Check if Strings Can be Made Equal With Operations II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/",
+  "tags": [
+    "hash-table",
+    "string",
+    "sorting"
+  ]
+}
