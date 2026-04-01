@@ -1,0 +1,12 @@
+{
+  "id": 2846,
+  "title": "Robot Collisions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/robot-collisions/",
+  "tags": [
+    "array",
+    "stack",
+    "sorting",
+    "simulation"
+  ]
+}
