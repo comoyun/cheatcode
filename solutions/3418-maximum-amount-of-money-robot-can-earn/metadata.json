@@ -1,0 +1,11 @@
+{
+  "id": 3677,
+  "title": "Maximum Amount of Money Robot Can Earn",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ]
+}
