@@ -1,0 +1,10 @@
+{
+  "id": 2197,
+  "title": "Decode the Slanted Ciphertext",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decode-the-slanted-ciphertext/",
+  "tags": [
+    "string",
+    "simulation"
+  ]
+}
