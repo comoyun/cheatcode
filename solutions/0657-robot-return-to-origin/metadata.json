@@ -1,0 +1,10 @@
+{
+  "id": 657,
+  "title": "Robot Return to Origin",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/robot-return-to-origin/",
+  "tags": [
+    "string",
+    "simulation"
+  ]
+}
