@@ -1,0 +1,11 @@
+{
+  "id": 906,
+  "title": "Walking Robot Simulation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/walking-robot-simulation/",
+  "tags": [
+    "array",
+    "hash-table",
+    "simulation"
+  ]
+}
