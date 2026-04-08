@@ -1,0 +1,11 @@
+{
+  "id": 3974,
+  "title": "XOR After Range Multiplication Queries I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/xor-after-range-multiplication-queries-i/",
+  "tags": [
+    "array",
+    "divide-and-conquer",
+    "simulation"
+  ]
+}
