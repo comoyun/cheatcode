@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(n^3)
+// space: O(1)
 
 /**
  * @param {number[]} nums
@@ -16,9 +16,3 @@ const minimumDistance = nums => {
 
     return result === Infinity ? -1 : result;
 };
-
-// Examples:
-console.log(minimumDistance([1, 2, 1, 1, 3]));
-console.log(minimumDistance([1, 1, 2, 3, 2, 1, 2]));
-console.log(minimumDistance([1]));
-
