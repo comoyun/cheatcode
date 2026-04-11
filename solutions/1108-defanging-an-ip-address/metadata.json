@@ -1,0 +1,9 @@
+{
+  "id": 1205,
+  "title": "Defanging an IP Address",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/defanging-an-ip-address/",
+  "tags": [
+    "string"
+  ]
+}
