@@ -1,0 +1,10 @@
+{
+  "id": 4119,
+  "title": "Minimum Distance Between Three Equal Elements II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
