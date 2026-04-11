@@ -15,6 +15,7 @@ const minimumDistance = nums => {
         if (map[num].length > 2) {
             const [a, b, c] = map[num];
             result = Math.min(result, b - a + (c - b) + (c - a));
+            map[num].shift();
         }
     }
 
