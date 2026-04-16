@@ -1,0 +1,11 @@
+{
+  "id": 3750,
+  "title": "Closest Equal Element Queries",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-equal-element-queries/",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search"
+  ]
+}
