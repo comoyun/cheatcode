@@ -1,0 +1,11 @@
+{
+  "id": 1984,
+  "title": "Maximum Distance Between a Pair of Values",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search"
+  ]
+}
