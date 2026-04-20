@@ -1,0 +1,10 @@
+{
+  "id": 2199,
+  "title": "Two Furthest Houses With Different Colors",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/two-furthest-houses-with-different-colors/",
+  "tags": [
+    "array",
+    "greedy"
+  ]
+}
