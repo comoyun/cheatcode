@@ -12,14 +12,21 @@ const maxDistance = colors => {
     for (let i = 0; i < colors.length; i++) {
         const color = colors[i];
 
-        map[color] ??= new Set();
+        map[color] ??= [];
+        let k = 0;
 
-        for (let j = 0; j < i; j++)
-            if (!map[color].has(j)) result = Math.max(result, i - j);
+        for (let j = 0; j < i; j++) {
+            const a = k < map[color].length ? map[color][k] : Infinity;
+            if (j < a) {
+                result = Math.max(result, i - j);
+                break;
+            } else if (j === a) {
+                k++;
+            }
+        }
 
-        map[color].add(i);
+        map[color].push(i);
     }
 
     return result;
 };
-
