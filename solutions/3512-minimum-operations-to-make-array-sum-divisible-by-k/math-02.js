@@ -6,7 +6,5 @@
  * @param {number} k
  * @return {number}
  */
-const minOperations = (nums, k) => {
-    const sum = nums.reduce((prev, curr) => prev + curr, 0);
-    return sum % k;
-};
+const minOperations = (nums, k) =>
+    nums.reduce((prev, curr) => prev + curr, 0) % k;
