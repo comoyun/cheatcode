@@ -1,0 +1,11 @@
+{
+  "id": 1840,
+  "title": "Minimize Hamming Distance After Swap Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "union-find"
+  ]
+}
