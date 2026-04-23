@@ -1,0 +1,11 @@
+{
+  "id": 2721,
+  "title": "Sum of Distances",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-distances/",
+  "tags": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+  ]
+}
