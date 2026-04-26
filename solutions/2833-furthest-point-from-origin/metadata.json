@@ -1,0 +1,10 @@
+{
+  "id": 3019,
+  "title": "Furthest Point From Origin",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/furthest-point-from-origin/",
+  "tags": [
+    "string",
+    "counting"
+  ]
+}
