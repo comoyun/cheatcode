@@ -1,0 +1,12 @@
+{
+  "id": 2160,
+  "title": "Minimum Operations to Make a Uni-Value Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
+  "tags": [
+    "array",
+    "math",
+    "sorting",
+    "matrix"
+  ]
+}
