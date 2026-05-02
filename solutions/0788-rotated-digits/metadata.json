@@ -1,10 +1,10 @@
 {
-  "id": 804,
-  "title": "Rotated Digits",
-  "difficulty": "Medium",
-  "link": "https://leetcode.com/problems/rotated-digits/",
-  "tags": [
-    "math",
-    "dynamic-programming"
-  ]
+    "id": 804,
+    "title": "Rotated Digits",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/rotated-digits/",
+    "tags": [
+        "math",
+        "dynamic-programming"
+    ]
 }
