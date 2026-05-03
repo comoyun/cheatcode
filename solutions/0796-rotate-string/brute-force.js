@@ -1,5 +1,5 @@
-// time: O(N * N)
-// space: O(N)
+// time: O(n * n)
+// space: O(n)
 
 /**
  * @param {string} s
