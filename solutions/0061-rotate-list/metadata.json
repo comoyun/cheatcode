@@ -1,0 +1,10 @@
+{
+  "id": 61,
+  "title": "Rotate List",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rotate-list/",
+  "tags": [
+    "linked-list",
+    "two-pointers"
+  ]
+}
