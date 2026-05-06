@@ -1,0 +1,11 @@
+{
+  "id": 1972,
+  "title": "Rotating the Box",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rotating-the-box/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "matrix"
+  ]
+}
