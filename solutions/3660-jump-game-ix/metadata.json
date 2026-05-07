@@ -1,0 +1,10 @@
+{
+  "id": 3981,
+  "title": "Jump Game IX",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/jump-game-ix/",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ]
+}
