@@ -1,0 +1,11 @@
+{
+  "id": 2043,
+  "title": "Cyclically Rotating a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/cyclically-rotating-a-grid/",
+  "tags": [
+    "array",
+    "matrix",
+    "simulation"
+  ]
+}
