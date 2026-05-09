@@ -11,7 +11,7 @@ const rotateGrid = (grid, k) => {
     const n = grid.length;
     const m = grid[0].length;
 
-    const init = layer => {
+    const iterator = layer => {
         let row = layer;
         let col = layer;
 
@@ -46,8 +46,8 @@ const rotateGrid = (grid, k) => {
         const nk = k % length;
         const bak = new Array(nk);
 
-        const read = init(layer);
-        const write = init(layer);
+        const read = iterator(layer);
+        const write = iterator(layer);
 
         for (let i = 0; i < length - nk; i++) {
             read();
@@ -63,4 +63,3 @@ const rotateGrid = (grid, k) => {
 
     return grid;
 };
-
