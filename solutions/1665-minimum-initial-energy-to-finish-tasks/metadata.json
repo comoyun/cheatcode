@@ -1,0 +1,11 @@
+{
+  "id": 1784,
+  "title": "Minimum Initial Energy to Finish Tasks",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
