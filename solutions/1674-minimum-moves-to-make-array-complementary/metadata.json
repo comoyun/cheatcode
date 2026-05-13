@@ -1,0 +1,11 @@
+{
+  "id": 1793,
+  "title": "Minimum Moves to Make Array Complementary",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/",
+  "tags": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+  ]
+}
