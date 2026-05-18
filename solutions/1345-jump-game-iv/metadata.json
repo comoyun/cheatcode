@@ -1,0 +1,11 @@
+{
+  "id": 1447,
+  "title": "Jump Game IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/jump-game-iv/",
+  "tags": [
+    "array",
+    "hash-table",
+    "breadth-first-search"
+  ]
+}
