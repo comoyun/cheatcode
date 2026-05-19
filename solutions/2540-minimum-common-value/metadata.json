@@ -1,0 +1,12 @@
+{
+  "id": 2634,
+  "title": "Minimum Common Value",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-common-value/",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "binary-search"
+  ]
+}
