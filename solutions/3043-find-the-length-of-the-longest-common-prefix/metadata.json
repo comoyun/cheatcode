@@ -1,0 +1,12 @@
+{
+  "id": 3329,
+  "title": "Find the Length of the Longest Common Prefix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "trie"
+  ]
+}
