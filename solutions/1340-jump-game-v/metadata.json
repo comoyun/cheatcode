@@ -1,0 +1,11 @@
+{
+  "id": 1466,
+  "title": "Jump Game V",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/jump-game-v/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "sorting"
+  ]
+}
