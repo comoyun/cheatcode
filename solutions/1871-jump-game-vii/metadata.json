@@ -1,0 +1,12 @@
+{
+  "id": 2001,
+  "title": "Jump Game VII",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/jump-game-vii/",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "sliding-window",
+    "prefix-sum"
+  ]
+}
