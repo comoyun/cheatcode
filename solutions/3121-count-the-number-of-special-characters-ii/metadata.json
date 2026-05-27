@@ -1,0 +1,10 @@
+{
+  "id": 3405,
+  "title": "Count the Number of Special Characters II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-special-characters-ii/",
+  "tags": [
+    "hash-table",
+    "string"
+  ]
+}
