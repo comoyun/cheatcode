@@ -1,0 +1,11 @@
+{
+  "id": 3376,
+  "title": "Longest Common Suffix Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-common-suffix-queries/",
+  "tags": [
+    "array",
+    "string",
+    "trie"
+  ]
+}
