@@ -1,0 +1,11 @@
+{
+  "id": 2245,
+  "title": "Destroying Asteroids",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/destroying-asteroids/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
