@@ -1,0 +1,13 @@
+{
+  "id": 3967,
+  "title": "Earliest Finish Time for Land and Water Rides II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "greedy",
+    "sorting"
+  ]
+}
