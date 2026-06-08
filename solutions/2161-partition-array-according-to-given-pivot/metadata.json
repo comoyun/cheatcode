@@ -1,0 +1,11 @@
+{
+  "id": 2265,
+  "title": "Partition Array According to Given Pivot",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
+  "tags": [
+    "array",
+    "two-pointers",
+    "simulation"
+  ]
+}
