@@ -1,0 +1,12 @@
+{
+  "id": 4007,
+  "title": "Maximum Total Subarray Value II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-total-subarray-value-ii/",
+  "tags": [
+    "array",
+    "greedy",
+    "segment-tree",
+    "heap-priority-queue"
+  ]
+}
