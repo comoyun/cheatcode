@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {number[][]} edges
