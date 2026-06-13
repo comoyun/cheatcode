@@ -1,0 +1,11 @@
+{
+  "id": 4216,
+  "title": "Weighted Word Mapping",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/weighted-word-mapping/",
+  "tags": [
+    "array",
+    "string",
+    "simulation"
+  ]
+}
