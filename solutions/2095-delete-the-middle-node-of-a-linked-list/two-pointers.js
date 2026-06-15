@@ -6,13 +6,13 @@
  * @return {ListNode}
  */
 const deleteMiddle = head => {
-    if (!head || !head.next) return null;
+    let slow = head;
+    let fast = head.next;
 
-    let slow = null,
-        fast = head;
-    while (fast && fast.next) {
-        if (slow) slow = slow.next;
-        else slow = head;
+    if (!fast) return null;
+
+    while (fast && fast.next && fast.next.next) {
+        slow = slow.next;
         fast = fast.next.next;
     }
 
