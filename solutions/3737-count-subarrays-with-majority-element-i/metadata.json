@@ -1,0 +1,15 @@
+{
+  "id": 4074,
+  "title": "Count Subarrays With Majority Element I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-subarrays-with-majority-element-i/",
+  "tags": [
+    "array",
+    "hash-table",
+    "divide-and-conquer",
+    "segment-tree",
+    "merge-sort",
+    "counting",
+    "prefix-sum"
+  ]
+}
