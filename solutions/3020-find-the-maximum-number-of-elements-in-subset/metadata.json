@@ -1,0 +1,11 @@
+{
+  "id": 3299,
+  "title": "Find the Maximum Number of Elements in Subset",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/",
+  "tags": [
+    "array",
+    "hash-table",
+    "enumeration"
+  ]
+}
