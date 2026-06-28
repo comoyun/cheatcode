@@ -1,0 +1,11 @@
+{
+  "id": 1956,
+  "title": "Maximum Element After Decreasing and Rearranging",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
