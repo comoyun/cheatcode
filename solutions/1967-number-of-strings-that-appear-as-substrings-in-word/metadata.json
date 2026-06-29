@@ -1,0 +1,10 @@
+{
+  "id": 2099,
+  "title": "Number of Strings That Appear as Substrings in Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
+  "tags": [
+    "array",
+    "string"
+  ]
+}
