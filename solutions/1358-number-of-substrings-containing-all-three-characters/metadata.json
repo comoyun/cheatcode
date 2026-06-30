@@ -1,0 +1,11 @@
+{
+  "id": 1460,
+  "title": "Number of Substrings Containing All Three Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+  "tags": [
+    "hash-table",
+    "string",
+    "sliding-window"
+  ]
+}
