@@ -1,0 +1,14 @@
+{
+  "id": 2914,
+  "title": "Find the Safest Path in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/",
+  "tags": [
+    "array",
+    "binary-search",
+    "breadth-first-search",
+    "union-find",
+    "heap-priority-queue",
+    "matrix"
+  ]
+}
