@@ -1,0 +1,14 @@
+{
+  "id": 3558,
+  "title": "Find a Safe Walk Through a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-a-safe-walk-through-a-grid/",
+  "tags": [
+    "array",
+    "breadth-first-search",
+    "graph",
+    "heap-priority-queue",
+    "matrix",
+    "shortest-path"
+  ]
+}
