@@ -1,0 +1,12 @@
+{
+  "id": 2582,
+  "title": "Minimum Score of a Path Between Two Cities",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ]
+}
