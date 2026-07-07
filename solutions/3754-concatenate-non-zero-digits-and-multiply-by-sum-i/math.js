@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(log10 n)
+// space: O(1)
 
 /**
  * @param {number} n
@@ -24,5 +24,3 @@ const sumAndMultiply = n => {
 
     return cook(cook(n).x).res;
 };
-
-
