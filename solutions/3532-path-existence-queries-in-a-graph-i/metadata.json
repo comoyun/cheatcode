@@ -1,0 +1,13 @@
+{
+  "id": 3838,
+  "title": "Path Existence Queries in a Graph I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/path-existence-queries-in-a-graph-i/",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "union-find",
+    "graph"
+  ]
+}
