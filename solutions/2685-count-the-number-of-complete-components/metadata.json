@@ -1,0 +1,12 @@
+{
+  "id": 2793,
+  "title": "Count the Number of Complete Components",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-complete-components/",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ]
+}
