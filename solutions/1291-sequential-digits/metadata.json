@@ -1,0 +1,9 @@
+{
+  "id": 1212,
+  "title": "Sequential Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sequential-digits/",
+  "tags": [
+    "enumeration"
+  ]
+}
