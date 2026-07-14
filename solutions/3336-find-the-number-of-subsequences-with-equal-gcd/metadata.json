@@ -1,0 +1,12 @@
+{
+  "id": 3608,
+  "title": "Find the Number of Subsequences With Equal GCD",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "number-theory"
+  ]
+}
