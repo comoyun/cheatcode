@@ -1,0 +1,10 @@
+{
+  "id": 3995,
+  "title": "GCD of Odd and Even Sums",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/",
+  "tags": [
+    "math",
+    "number-theory"
+  ]
+}
