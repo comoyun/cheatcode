@@ -1,0 +1,14 @@
+{
+  "id": 4242,
+  "title": "Sum of GCD of Formed Pairs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/",
+  "tags": [
+    "array",
+    "math",
+    "two-pointers",
+    "sorting",
+    "simulation",
+    "number-theory"
+  ]
+}
