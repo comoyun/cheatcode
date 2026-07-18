@@ -1,0 +1,11 @@
+{
+  "id": 2106,
+  "title": "Find Greatest Common Divisor of Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+  "tags": [
+    "array",
+    "math",
+    "number-theory"
+  ]
+}
