@@ -1,0 +1,10 @@
+{
+  "id": 3805,
+  "title": "Maximize Active Section with Trade I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-active-section-with-trade-i/",
+  "tags": [
+    "string",
+    "enumeration"
+  ]
+}
