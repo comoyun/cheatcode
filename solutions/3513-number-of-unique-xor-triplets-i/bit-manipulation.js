@@ -6,14 +6,12 @@
  * @return {number}
  */
 const uniqueXorTriplets = nums => {
-    const n = nums.length;
-    if (n === 1) return 1;
-    if (n < 3) return 2;
-
-    let max = 0;
+    let max = nums.length;
+    let result = max;
     let count = 0;
     let pow = 1;
-    for (const num of nums) max = Math.max(max, num);
+
+    if (max < 3) return max;
 
     while (max) {
         const bit = max & 1;
@@ -22,6 +20,5 @@ const uniqueXorTriplets = nums => {
         pow <<= 1;
     }
 
-    return n + count + 1;
+    return result + count + 1;
 };
-
