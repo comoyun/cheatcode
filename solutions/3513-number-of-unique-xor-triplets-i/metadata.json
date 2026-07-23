@@ -1,0 +1,11 @@
+{
+  "id": 3824,
+  "title": "Number of Unique XOR Triplets I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/",
+  "tags": [
+    "array",
+    "math",
+    "bit-manipulation"
+  ]
+}
