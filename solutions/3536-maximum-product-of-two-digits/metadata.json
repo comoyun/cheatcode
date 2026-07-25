@@ -1,0 +1,10 @@
+{
+  "id": 3859,
+  "title": "Maximum Product of Two Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-product-of-two-digits/",
+  "tags": [
+    "math",
+    "sorting"
+  ]
+}
