@@ -1,0 +1,11 @@
+{
+  "id": 3812,
+  "title": "Smallest Palindromic Rearrangement I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-palindromic-rearrangement-i/",
+  "tags": [
+    "string",
+    "sorting",
+    "counting-sort"
+  ]
+}
