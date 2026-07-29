@@ -1,0 +1,11 @@
+{
+  "id": 3275,
+  "title": "Minimum Number of Pushes to Type Word I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/",
+  "tags": [
+    "math",
+    "string",
+    "greedy"
+  ]
+}
