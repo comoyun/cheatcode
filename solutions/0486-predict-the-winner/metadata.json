@@ -1,0 +1,13 @@
+{
+  "id": 486,
+  "title": "Predict the Winner",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/predict-the-winner/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "recursion",
+    "game-theory"
+  ]
+}
