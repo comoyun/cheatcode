@@ -1,0 +1,12 @@
+{
+  "id": 1522,
+  "title": "Stone Game III",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stone-game-iii/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "game-theory"
+  ]
+}
