@@ -1,0 +1,11 @@
+{
+  "id": 4107,
+  "title": "Find Missing Elements",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-missing-elements/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ]
+}
