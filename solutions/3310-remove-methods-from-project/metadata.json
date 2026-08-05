@@ -1,0 +1,11 @@
+{
+  "id": 3561,
+  "title": "Remove Methods From Project",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-methods-from-project/",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "graph"
+  ]
+}
