@@ -1,0 +1,13 @@
+{
+  "id": 456,
+  "title": "132 Pattern",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/132-pattern/",
+  "tags": [
+    "array",
+    "binary-search",
+    "stack",
+    "monotonic-stack",
+    "ordered-set"
+  ]
+}
