@@ -1,0 +1,12 @@
+{
+  "id": 3584,
+  "title": "Find the Lexicographically Smallest Valid Sequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/",
+  "tags": [
+    "two-pointers",
+    "string",
+    "dynamic-programming",
+    "greedy"
+  ]
+}
