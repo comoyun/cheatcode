@@ -1,0 +1,15 @@
+{
+  "id": 1240,
+  "title": "Stone Game II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/stone-game-ii/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "minimax-algorithm",
+    "prefix-sum",
+    "game-theory",
+    "zero-sum-game"
+  ]
+}
