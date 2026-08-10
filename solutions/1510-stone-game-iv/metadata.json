@@ -1,0 +1,15 @@
+{
+  "id": 1617,
+  "title": "Stone Game IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stone-game-iv/",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "minimax-algorithm",
+    "game-theory",
+    "nim-game",
+    "sprague-grundy-theorem",
+    "zero-sum-game"
+  ]
+}
