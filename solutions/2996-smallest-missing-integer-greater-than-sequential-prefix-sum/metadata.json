@@ -1,0 +1,11 @@
+{
+  "id": 3236,
+  "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ]
+}
