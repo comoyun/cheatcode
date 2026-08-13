@@ -34,4 +34,3 @@ const findRepeatedDnaSequences = s => {
 
     return [...result];
 };
-
