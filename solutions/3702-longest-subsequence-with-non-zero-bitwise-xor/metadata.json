@@ -1,0 +1,10 @@
+{
+  "id": 4033,
+  "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/",
+  "tags": [
+    "array",
+    "bit-manipulation"
+  ]
+}
