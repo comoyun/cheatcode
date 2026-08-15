@@ -7,7 +7,6 @@
  */
 const longestSubsequence = nums => {
     const n = nums.length;
-    let result = n;
     let xor = 0;
     let zeroes = 0;
 
@@ -17,7 +16,7 @@ const longestSubsequence = nums => {
         else xor ^= num;
     }
 
-    if (xor) return result;
+    if (xor) return n;
     if (zeroes === n) return 0;
-    return result - 1;
+    return n - 1;
 };

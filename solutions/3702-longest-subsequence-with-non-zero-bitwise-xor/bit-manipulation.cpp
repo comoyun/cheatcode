@@ -8,7 +8,6 @@ class Solution {
   public:
     int longestSubsequence(vector<int> nums) {
         const int n = nums.size();
-        int result = n;
         int x = 0;
         int zeroes = 0;
 
@@ -20,7 +19,7 @@ class Solution {
                 x ^= num;
         }
 
-        if (x) return result;
+        if (x) return n;
         if (zeroes == n) return 0;
         return n - 1;
     }
