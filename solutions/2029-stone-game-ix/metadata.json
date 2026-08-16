@@ -1,0 +1,16 @@
+{
+  "id": 2156,
+  "title": "Stone Game IX",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/stone-game-ix/",
+  "tags": [
+    "array",
+    "math",
+    "greedy",
+    "minimax-algorithm",
+    "counting",
+    "game-theory",
+    "nim-game",
+    "zero-sum-game"
+  ]
+}
