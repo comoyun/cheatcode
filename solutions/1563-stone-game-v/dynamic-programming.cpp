@@ -1,3 +1,6 @@
+// time: O(n^3)
+// space: O(n^2)
+
 #include <algorithm>
 #include <cstring>
 #include <vector>
