@@ -1,0 +1,10 @@
+{
+  "id": 3705,
+  "title": "Find the Largest Almost Missing Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
