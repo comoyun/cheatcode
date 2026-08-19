@@ -1,0 +1,12 @@
+{
+  "id": 1487,
+  "title": "Cinema Seat Allocation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/cinema-seat-allocation/",
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy",
+    "bit-manipulation"
+  ]
+}
