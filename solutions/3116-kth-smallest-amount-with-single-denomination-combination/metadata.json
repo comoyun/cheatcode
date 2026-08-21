@@ -1,0 +1,14 @@
+{
+  "id": 3375,
+  "title": "Kth Smallest Amount With Single Denomination Combination",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/",
+  "tags": [
+    "array",
+    "math",
+    "binary-search",
+    "bit-manipulation",
+    "combinatorics",
+    "number-theory"
+  ]
+}
