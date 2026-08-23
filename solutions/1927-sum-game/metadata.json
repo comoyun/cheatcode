@@ -1,0 +1,12 @@
+{
+  "id": 2039,
+  "title": "Sum Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-game/",
+  "tags": [
+    "math",
+    "string",
+    "greedy",
+    "game-theory"
+  ]
+}
