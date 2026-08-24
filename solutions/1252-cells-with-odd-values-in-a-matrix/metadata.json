@@ -1,0 +1,11 @@
+{
+  "id": 1378,
+  "title": "Cells with Odd Values in a Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/",
+  "tags": [
+    "array",
+    "math",
+    "simulation"
+  ]
+}
