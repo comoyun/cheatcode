@@ -1,0 +1,10 @@
+{
+  "id": 4080,
+  "title": "Smallest Missing Multiple of K",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/smallest-missing-multiple-of-k/",
+  "tags": [
+    "array",
+    "hash-table"
+  ]
+}
