@@ -1,0 +1,10 @@
+{
+  "id": 3150,
+  "title": "Shortest and Lexicographically Smallest Beautiful String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/",
+  "tags": [
+    "string",
+    "sliding-window"
+  ]
+}
