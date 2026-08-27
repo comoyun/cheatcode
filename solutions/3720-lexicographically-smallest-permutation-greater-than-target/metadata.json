@@ -1,0 +1,13 @@
+{
+  "id": 4020,
+  "title": "Lexicographically Smallest Permutation Greater Than Target",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/",
+  "tags": [
+    "hash-table",
+    "string",
+    "greedy",
+    "counting",
+    "enumeration"
+  ]
+}
