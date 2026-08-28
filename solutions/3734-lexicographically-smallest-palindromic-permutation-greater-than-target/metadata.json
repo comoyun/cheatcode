@@ -1,0 +1,11 @@
+{
+  "id": 4037,
+  "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/",
+  "tags": [
+    "two-pointers",
+    "string",
+    "enumeration"
+  ]
+}
