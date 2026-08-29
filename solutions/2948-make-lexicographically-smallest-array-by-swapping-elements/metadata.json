@@ -1,0 +1,11 @@
+{
+  "id": 3219,
+  "title": "Make Lexicographically Smallest Array by Swapping Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/",
+  "tags": [
+    "array",
+    "union-find",
+    "sorting"
+  ]
+}
