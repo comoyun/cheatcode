@@ -1,0 +1,10 @@
+{
+  "id": 2212,
+  "title": "Removing Minimum and Maximum From Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
+  "tags": [
+    "array",
+    "greedy"
+  ]
+}
