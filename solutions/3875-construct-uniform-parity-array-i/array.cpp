@@ -1,3 +1,6 @@
+// time: O(1)
+// space: O(1)
+
 #include <vector>
 
 using namespace std;
