@@ -1,0 +1,12 @@
+{
+  "id": 1400,
+  "title": "Find Winner on a Tic Tac Toe Game",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/",
+  "tags": [
+    "array",
+    "hash-table",
+    "matrix",
+    "simulation"
+  ]
+}
