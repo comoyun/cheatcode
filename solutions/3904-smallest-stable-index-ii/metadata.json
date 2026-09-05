@@ -1,0 +1,10 @@
+{
+  "id": 4285,
+  "title": "Smallest Stable Index II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-stable-index-ii/",
+  "tags": [
+    "array",
+    "prefix-sum"
+  ]
+}
