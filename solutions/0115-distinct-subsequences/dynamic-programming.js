@@ -9,20 +9,19 @@
 const numDistinct = (s, t) => {
     const m = s.length;
     const n = t.length;
-    const dp = Array.from({ length: m }, () => new Array(n).fill(-1));
+    const dp = new Int32Array(n * m).fill(-1);
 
     const dfs = (i, j) => {
         if (j === n) return 1;
         if (i === m) return 0;
-        if (dp[i][j] !== -1) return dp[i][j];
+        if (dp[i * n + j] !== -1) return dp[i * n + j];
 
         let count = 0;
         if (s[i] === t[j]) count += dfs(i + 1, j + 1);
         count += dfs(i + 1, j);
 
-        return (dp[i][j] = count);
+        return (dp[i * n + j] = count);
     };
 
     return dfs(0, 0);
 };
-
