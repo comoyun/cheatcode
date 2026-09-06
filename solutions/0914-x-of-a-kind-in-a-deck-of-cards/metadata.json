@@ -1,0 +1,15 @@
+{
+  "id": 950,
+  "title": "X of a Kind in a Deck of Cards",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "counting",
+    "number-theory",
+    "euclidean-algorithm",
+    "greatest-common-divisor"
+  ]
+}
