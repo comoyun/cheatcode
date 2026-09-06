@@ -1,0 +1,10 @@
+{
+  "id": 115,
+  "title": "Distinct Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/distinct-subsequences/",
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ]
+}
