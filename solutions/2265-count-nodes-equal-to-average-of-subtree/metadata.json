@@ -1,0 +1,11 @@
+{
+  "id": 2347,
+  "title": "Count Nodes Equal to Average of Subtree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ]
+}
