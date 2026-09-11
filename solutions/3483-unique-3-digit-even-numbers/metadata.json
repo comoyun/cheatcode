@@ -1,0 +1,12 @@
+{
+  "id": 3799,
+  "title": "Unique 3-Digit Even Numbers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/unique-3-digit-even-numbers/",
+  "tags": [
+    "array",
+    "hash-table",
+    "recursion",
+    "enumeration"
+  ]
+}
