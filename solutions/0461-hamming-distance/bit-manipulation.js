@@ -7,16 +7,12 @@
  * @return {number}
  */
 const hammingDistance = (x, y) => {
-    let a = x;
-    let b = y;
     let result = 0;
 
-    while (a || b) {
-        const bitA = a & 1;
-        const bitB = b & 1;
-        result += bitA ^ bitB;
-        a >>= 1;
-        b >>= 1;
+    while (x || y) {
+        result += (x & 1) ^ (y & 1);
+        x >>= 1;
+        y >>= 1;
     }
 
     return result;
