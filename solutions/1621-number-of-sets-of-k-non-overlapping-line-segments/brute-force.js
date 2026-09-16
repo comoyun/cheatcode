@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(n^2 * k)
+// space: O(n * k)
 
 /**
  * @param {number} n
