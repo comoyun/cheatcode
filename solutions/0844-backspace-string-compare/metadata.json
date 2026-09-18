@@ -1,0 +1,12 @@
+{
+  "id": 874,
+  "title": "Backspace String Compare",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/backspace-string-compare/",
+  "tags": [
+    "two-pointers",
+    "string",
+    "stack",
+    "simulation"
+  ]
+}
