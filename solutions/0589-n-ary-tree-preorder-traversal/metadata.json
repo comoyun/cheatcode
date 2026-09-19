@@ -1,0 +1,11 @@
+{
+  "id": 775,
+  "title": "N-ary Tree Preorder Traversal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
+  "tags": [
+    "stack",
+    "tree",
+    "depth-first-search"
+  ]
+}
