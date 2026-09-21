@@ -1,0 +1,11 @@
+{
+  "id": 3831,
+  "title": "Find X Value of Array I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-x-value-of-array-i/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming"
+  ]
+}
