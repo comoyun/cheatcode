@@ -1,0 +1,12 @@
+{
+  "id": 919,
+  "title": "Projection Area of 3D Shapes",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/projection-area-of-3d-shapes/",
+  "tags": [
+    "array",
+    "math",
+    "geometry",
+    "matrix"
+  ]
+}
