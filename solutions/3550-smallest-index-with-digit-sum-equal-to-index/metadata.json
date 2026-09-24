@@ -1,0 +1,10 @@
+{
+  "id": 3869,
+  "title": "Smallest Index With Digit Sum Equal to Index",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/",
+  "tags": [
+    "array",
+    "math"
+  ]
+}
