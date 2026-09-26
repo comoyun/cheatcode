@@ -36,4 +36,3 @@ const evaluate = (s, knowledge) => {
 
     return result.join('');
 };
-
