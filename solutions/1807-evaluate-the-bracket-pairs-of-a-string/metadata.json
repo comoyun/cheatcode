@@ -1,0 +1,11 @@
+{
+  "id": 1934,
+  "title": "Evaluate the Bracket Pairs of a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ]
+}
