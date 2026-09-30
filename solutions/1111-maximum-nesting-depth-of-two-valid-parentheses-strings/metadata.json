@@ -1,0 +1,11 @@
+{
+  "id": 1208,
+  "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/",
+  "tags": [
+    "string",
+    "stack",
+    "bracket-sequences"
+  ]
+}
