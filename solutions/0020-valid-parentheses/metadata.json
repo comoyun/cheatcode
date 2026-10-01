@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "title": "Valid Parentheses",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/valid-parentheses/",
+  "tags": [
+    "string",
+    "stack",
+    "bracket-sequences"
+  ]
+}
