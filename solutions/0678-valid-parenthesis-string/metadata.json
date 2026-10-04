@@ -1,0 +1,13 @@
+{
+  "id": 678,
+  "title": "Valid Parenthesis String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "stack",
+    "greedy",
+    "bracket-sequences"
+  ]
+}
