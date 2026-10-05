@@ -1,0 +1,11 @@
+{
+  "id": 886,
+  "title": "Score of Parentheses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/score-of-parentheses/",
+  "tags": [
+    "string",
+    "stack",
+    "bracket-sequences"
+  ]
+}
