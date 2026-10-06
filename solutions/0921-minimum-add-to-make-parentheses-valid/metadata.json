@@ -1,0 +1,12 @@
+{
+  "id": 957,
+  "title": "Minimum Add to Make Parentheses Valid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+  "tags": [
+    "string",
+    "stack",
+    "greedy",
+    "bracket-sequences"
+  ]
+}
