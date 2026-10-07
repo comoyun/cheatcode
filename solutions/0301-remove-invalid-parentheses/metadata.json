@@ -1,0 +1,11 @@
+{
+  "id": 301,
+  "title": "Remove Invalid Parentheses",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/remove-invalid-parentheses/",
+  "tags": [
+    "string",
+    "backtracking",
+    "breadth-first-search"
+  ]
+}
