@@ -1,0 +1,11 @@
+{
+  "id": 1078,
+  "title": "Remove Outermost Parentheses",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-outermost-parentheses/",
+  "tags": [
+    "string",
+    "stack",
+    "bracket-sequences"
+  ]
+}
