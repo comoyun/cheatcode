@@ -1,0 +1,13 @@
+{
+  "id": 2418,
+  "title": "Minimum Sum of Squared Difference",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-sum-of-squared-difference/",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ]
+}
