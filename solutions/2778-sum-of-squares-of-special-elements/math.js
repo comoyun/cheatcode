@@ -1,5 +1,5 @@
-// time: O()
-// space: O()
+// time: O(sqrt(n))
+// space: O(1)
 
 /**
  * @param {number[]} nums
@@ -19,8 +19,3 @@ const sumOfSquares = nums => {
 
     return result;
 };
-
-// Examples:
-// [1,2,3,4]
-// [2,7,1,19,18,3]
-
