@@ -11,7 +11,7 @@ const maxAlternatingSum = nums => {
 
     for (const num of nums) max = Math.max(max, Math.abs(num));
 
-    const freq = Array(max + 1).fill(0);
+    const freq = new Uint16Array(max + 1).fill(0);
 
     for (const num of nums) freq[Math.abs(num)]++;
 
