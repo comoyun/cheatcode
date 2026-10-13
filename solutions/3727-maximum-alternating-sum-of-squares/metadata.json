@@ -1,0 +1,11 @@
+{
+  "id": 4078,
+  "title": "Maximum Alternating Sum of Squares",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
