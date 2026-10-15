@@ -1,0 +1,12 @@
+{
+  "id": 3163,
+  "title": "Subarrays Distinct Element Sum of Squares I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-indexed-tree",
+    "segment-tree"
+  ]
+}
