@@ -1,0 +1,11 @@
+{
+  "id": 3847,
+  "title": "Minimum Swaps to Sort by Digit Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ]
+}
