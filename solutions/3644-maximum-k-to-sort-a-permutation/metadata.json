@@ -1,0 +1,10 @@
+{
+  "id": 3950,
+  "title": "Maximum K to Sort a Permutation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/",
+  "tags": [
+    "array",
+    "bit-manipulation"
+  ]
+}
