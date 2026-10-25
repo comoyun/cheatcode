@@ -1,0 +1,13 @@
+{
+  "id": 1380,
+  "title": "Number of Closed Islands",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-closed-islands/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "matrix"
+  ]
+}
