@@ -1,0 +1,13 @@
+{
+  "id": 3823,
+  "title": "Count Islands With Total Value Divisible by K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "matrix"
+  ]
+}
