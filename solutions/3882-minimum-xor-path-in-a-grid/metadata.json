@@ -1,0 +1,12 @@
+{
+  "id": 4205,
+  "title": "Minimum XOR Path in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "bit-manipulation",
+    "matrix"
+  ]
+}
