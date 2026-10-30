@@ -1,0 +1,12 @@
+{
+  "id": 4104,
+  "title": "Shortest Path With At Most K Consecutive Identical Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/",
+  "tags": [
+    "string",
+    "graph",
+    "heap-priority-queue",
+    "shortest-path"
+  ]
+}
