@@ -1,0 +1,11 @@
+{
+  "id": 3938,
+  "title": "Twisted Mirror Path Count",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/twisted-mirror-path-count/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ]
+}
