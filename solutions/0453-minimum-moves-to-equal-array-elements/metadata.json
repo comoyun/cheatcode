@@ -1,0 +1,10 @@
+{
+  "id": 453,
+  "title": "Minimum Moves to Equal Array Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+  "tags": [
+    "array",
+    "math"
+  ]
+}
