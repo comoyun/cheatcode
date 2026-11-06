@@ -1,0 +1,12 @@
+{
+  "id": 2833,
+  "title": "Count Zero Request Servers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-zero-request-servers/",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window",
+    "sorting"
+  ]
+}
