@@ -1,0 +1,14 @@
+{
+  "id": 1396,
+  "title": "Count Servers that Communicate",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-servers-that-communicate/",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "matrix",
+    "counting"
+  ]
+}
