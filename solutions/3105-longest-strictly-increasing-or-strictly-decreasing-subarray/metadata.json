@@ -1,0 +1,9 @@
+{
+  "id": 3372,
+  "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/",
+  "tags": [
+    "array"
+  ]
+}
