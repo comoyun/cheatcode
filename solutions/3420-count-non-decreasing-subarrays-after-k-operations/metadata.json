@@ -1,0 +1,15 @@
+{
+  "id": 3674,
+  "title": "Count Non-Decreasing Subarrays After K Operations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/",
+  "tags": [
+    "array",
+    "stack",
+    "segment-tree",
+    "queue",
+    "sliding-window",
+    "monotonic-stack",
+    "monotonic-queue"
+  ]
+}
