@@ -1,4 +1,4 @@
-// time: O(n^2)
+// time: O(n * r)
 // space: O(1)
 
 /**
