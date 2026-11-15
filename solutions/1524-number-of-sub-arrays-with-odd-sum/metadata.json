@@ -1,0 +1,12 @@
+{
+  "id": 1631,
+  "title": "Number of Sub-arrays With Odd Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "prefix-sum"
+  ]
+}
