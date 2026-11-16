@@ -1,5 +1,5 @@
-// time: O(N * N)
-// space: O(N)
+// time: O(n)
+// space: O(n)
 
 /**
  * @param {string} s
@@ -25,4 +25,3 @@ const digitSum = (s, k) => {
     }
     return s;
 };
-
