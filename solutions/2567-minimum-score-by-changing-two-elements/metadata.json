@@ -1,0 +1,11 @@
+{
+  "id": 2706,
+  "title": "Minimum Score by Changing Two Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ]
+}
