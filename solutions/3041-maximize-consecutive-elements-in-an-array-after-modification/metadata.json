@@ -1,0 +1,11 @@
+{
+  "id": 3298,
+  "title": "Maximize Consecutive Elements in an Array After Modification",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "sorting"
+  ]
+}
