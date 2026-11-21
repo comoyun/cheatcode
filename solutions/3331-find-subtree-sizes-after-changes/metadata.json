@@ -1,0 +1,13 @@
+{
+  "id": 3576,
+  "title": "Find Subtree Sizes After Changes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-subtree-sizes-after-changes/",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "tree",
+    "depth-first-search"
+  ]
+}
