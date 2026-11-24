@@ -1,0 +1,13 @@
+{
+  "id": 3702,
+  "title": "Maximum Subarray With Equal Products",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-subarray-with-equal-products/",
+  "tags": [
+    "array",
+    "math",
+    "sliding-window",
+    "enumeration",
+    "number-theory"
+  ]
+}
