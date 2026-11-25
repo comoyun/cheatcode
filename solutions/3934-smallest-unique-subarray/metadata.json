@@ -1,0 +1,14 @@
+{
+  "id": 4105,
+  "title": "Smallest Unique Subarray",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-unique-subarray/",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "rolling-hash",
+    "suffix-array",
+    "hash-function"
+  ]
+}
