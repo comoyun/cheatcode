@@ -1,0 +1,12 @@
+{
+  "id": 3745,
+  "title": "Maximum Number of Items From Sale II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-items-from-sale-ii/",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ]
+}
